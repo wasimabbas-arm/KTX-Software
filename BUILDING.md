@@ -156,6 +156,17 @@ For web there are two additional targets:
 
 > **Note:** The libktx wrapper does not use the transcoder wrapper. It directly uses the underlying c++ transcoder.
 
+#### asm.js and legacy browser support
+
+By default [WebAssembly](https://webassembly.org) (.wasm) is emitted when building with Emscripten. For older browsers you can build [asm.js](http://asmjs.org) output as well and enable legacy browser support. The memory is configured to be non-resizable for asm.js to allow optimizations. The initial memory size (defaults to 64MB) can be configured as well:
+
+```bash
+emcmake cmake -Bbuild-web . \
+-DKTX_FEATURE_WEB_ASM_JS=ON \ # Outputs asm.js instead of WebAssembly code
+-DKTX_FEATURE_WEB_LEGACY_BROWSER=ON \ # Maximizes legacy browser support
+-DKTX_FEATURE_WEB_ASM_JS_INITIAL_MEMORY=128MB # Set the memory limit
+```
+
 ### Windows
 
 CMake can create solutions for Microsoft Visual Studio (2015/2017/2019 are supported by KTX).

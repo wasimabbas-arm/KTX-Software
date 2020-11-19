@@ -2,8 +2,10 @@
 # SPDX-License-Identifier: Apache-2.0
 
 libktx.js
+libktx.js.mem
 libktx.wasm
 msc_basis_transcoder.js
+msc_basis_transcoder.js.mem
 msc_basis_transcoder.wasm
 
 libktx-webgl/ktx_app.png
