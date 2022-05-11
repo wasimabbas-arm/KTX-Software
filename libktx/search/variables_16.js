@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['z_0',['z',['../structktxOrientation.html#adcf7873d5ae142505d49e2bae3448563',1,'ktxOrientation']]]
+  ['width_0',['width',['../structktxVulkanTexture.html#a7b9da58e222e1f4952d0c570f6419aa6',1,'ktxVulkanTexture']]],
+  ['write_1',['write',['../structktxStream.html#afc8acb34335bcb8fc1ebddd76459f837',1,'ktxStream']]]
 ];

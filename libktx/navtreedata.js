@@ -55,7 +55,7 @@ var NAVTREE =
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
@@ -80,7 +80,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"ktx_8h.html#afdb41471bee56cef8241060de72d6735"
+"ktx_8h.html#a9cb85e48ab10ea04747de7ef12087670"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

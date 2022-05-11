@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['verbose_0',['verbose',['libktx/structktxAstcParams.html#aabd2b5e8453a149e0246e59a7cdc4685',1,'ktxAstcParams::verbose()'],['libktx/structktxBasisParams.html#ad43dc9ddf5a11361233e24cd858a09fd',1,'ktxBasisParams::verbose()']]],
-  ['viewtype_1',['viewType',['libktx/structktxVulkanTexture.html#a03ccdaea9ac14f8ebfdf53cc0bbed379',1,'ktxVulkanTexture']]],
-  ['vkformat_2',['vkFormat',['libktx/structktxTextureCreateInfo.html#aa1bc25cfcfdc8c0753a265753312ef65',1,'ktxTextureCreateInfo']]],
-  ['vtbl_3',['vtbl',['libktx/structktxTexture.html#aaf7e33e68057362f0db76e1e1040fc8c',1,'ktxTexture']]],
-  ['vulkan_20texture_20image_20loader_4',['Vulkan Texture Image Loader',['libktx/group__ktx__vkloader.html',1,'']]],
-  ['vvtbl_5',['vvtbl',['libktx/structktxTexture.html#a332a2f7182df11188caa70aba7291d3c',1,'ktxTexture']]]
+  ['uastc_0',['uastc',['libktx/structktxBasisParams.html#a7f9092685bb7f21656c08ada636dded6',1,'ktxBasisParams']]],
+  ['uastcflags_1',['uastcFlags',['libktx/structktxBasisParams.html#a3cae71fd75deacacb658f52917df6db1',1,'ktxBasisParams']]],
+  ['uastcrdo_2',['uastcRDO',['libktx/structktxBasisParams.html#a9d6a6d05cbb6b10bf72ee9e89759581e',1,'ktxBasisParams']]],
+  ['uastcrdodictsize_3',['uastcRDODictSize',['libktx/structktxBasisParams.html#a7022e40fb4d350016de552cca296aedc',1,'ktxBasisParams']]],
+  ['uastcrdodontfavorsimplermodes_4',['uastcRDODontFavorSimplerModes',['libktx/structktxBasisParams.html#ae98de348622faacd1d5f5d7bb5ace7b5',1,'ktxBasisParams']]],
+  ['uastcrdomaxsmoothblockerrorscale_5',['uastcRDOMaxSmoothBlockErrorScale',['libktx/structktxBasisParams.html#a21b9198210b22ff345299b9c1b48bfa1',1,'ktxBasisParams']]],
+  ['uastcrdomaxsmoothblockstddev_6',['uastcRDOMaxSmoothBlockStdDev',['libktx/structktxBasisParams.html#a88590bbf8d6a5edd0afce3356b49c296',1,'ktxBasisParams']]],
+  ['uastcrdonomultithreading_7',['uastcRDONoMultithreading',['libktx/structktxBasisParams.html#ac1d4f91fb9c5a420f76fa7c194c8d04f',1,'ktxBasisParams']]],
+  ['uastcrdoqualityscalar_8',['uastcRDOQualityScalar',['libktx/structktxBasisParams.html#ad2bbffd908482442da4efcea86af1d7d',1,'ktxBasisParams']]]
 ];

@@ -6,7 +6,7 @@ var ktx_8h =
     [ "ktxTexture1", "structktxTexture1.html", "structktxTexture1" ],
     [ "ktxTexture2", "structktxTexture2.html", "structktxTexture2" ],
     [ "ktxTextureCreateInfo", "structktxTextureCreateInfo.html", "structktxTextureCreateInfo" ],
-    [ "ktxStream", "structktxStream.html", null ],
+    [ "ktxStream", "structktxStream.html", "structktxStream" ],
     [ "ktxAstcParams", "structktxAstcParams.html", "structktxAstcParams" ],
     [ "ktxBasisParams", "structktxBasisParams.html", "structktxBasisParams" ],
     [ "KTX_ANIMDATA_KEY", "ktx_8h.html#a8c260cc2a9b8d4ee63ccc36810779f84", null ],

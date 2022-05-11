@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['layercount_0',['layerCount',['../structktxVulkanTexture.html#a7e7fcaf13c3c30d6046137e21a1920d4',1,'ktxVulkanTexture']]],
-  ['levelcount_1',['levelCount',['../structktxVulkanTexture.html#afce4a647ee2aa280f0e6957ecc520d43',1,'ktxVulkanTexture']]],
-  ['license_20file_20for_20the_20khronosgroup_2fktx_2dsoftware_20project_2',['LICENSE file for the KhronosGroup/KTX-Software project',['../license.html',1,'']]]
+  ['image_0',['image',['../structktxVulkanTexture.html#a8e1c1e2f71c9921d1cb47d50a6e7a8cb',1,'ktxVulkanTexture']]],
+  ['imageformat_1',['imageFormat',['../structktxVulkanTexture.html#a51a2976a43d1c449904208ab52ee217f',1,'ktxVulkanTexture']]],
+  ['imagelayout_2',['imageLayout',['../structktxVulkanTexture.html#ad86553423ca7b214849b6a26bd1c4010',1,'ktxVulkanTexture']]],
+  ['inputswizzle_3',['inputSwizzle',['../structktxAstcParams.html#a58e4cfd075352151d0946b63b8892f83',1,'ktxAstcParams::inputSwizzle()'],['../structktxBasisParams.html#a2b3befb6617cde21ca3e5b222257c66c',1,'ktxBasisParams::inputSwizzle()']]],
+  ['introduction_4',['Introduction',['../index.html',1,'']]],
+  ['isarray_5',['isArray',['../structktxTexture.html#ad18302edd81e0368b93d7fdd517813e8',1,'ktxTexture::isArray()'],['../structktxTextureCreateInfo.html#a7f6d6379fcb54b95769000b3919a659b',1,'ktxTextureCreateInfo::isArray()']]],
+  ['iscubemap_6',['isCubemap',['../structktxTexture.html#a4e9ae7f75a7e1f05ca4f9eacba84db82',1,'ktxTexture']]]
 ];

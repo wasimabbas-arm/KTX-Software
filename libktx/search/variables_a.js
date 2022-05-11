@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['maxendpoints_0',['maxEndpoints',['../structktxBasisParams.html#af4e007287df7d420666e55d5622e8daa',1,'ktxBasisParams']]],
-  ['maxselectors_1',['maxSelectors',['../structktxBasisParams.html#a39cff8b65fcc4d675e73a58efc28ad23',1,'ktxBasisParams']]],
-  ['mode_2',['mode',['../structktxAstcParams.html#ae099248aee08f8e48e2131b4c4d205a2',1,'ktxAstcParams']]]
+  ['kvdata_0',['kvData',['../structktxTexture.html#aeae5d0c9f8403c73b435e60af23f8d61',1,'ktxTexture']]],
+  ['kvdatahead_1',['kvDataHead',['../structktxTexture.html#a3bb33b1858f6faf8bbb8f4660e778138',1,'ktxTexture']]],
+  ['kvdatalen_2',['kvDataLen',['../structktxTexture.html#aa7a8a94d257c5e6de13075734f99cc9c',1,'ktxTexture']]]
 ];

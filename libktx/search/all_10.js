@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['selectorrdothreshold_0',['selectorRDOThreshold',['../structktxBasisParams.html#a998c4122bce4a240622f5db361fcecb2',1,'ktxBasisParams']]],
-  ['separatergtorgb_5fa_1',['separateRGToRGB_A',['../structktxBasisParams.html#ab981f406a51517471c96f85fd19fd3b2',1,'ktxBasisParams']]],
-  ['strings_2ec_2',['strings.c',['../strings_8c.html',1,'']]],
-  ['structsize_3',['structSize',['../structktxAstcParams.html#a7cab0d1eb6d3ed8dc93a5191b1f3c310',1,'ktxAstcParams::structSize()'],['../structktxBasisParams.html#aef37288bf5e390a9b85d5d54c1642848',1,'ktxBasisParams::structSize()']]]
+  ['qualitylevel_0',['qualityLevel',['../structktxAstcParams.html#a02cf893fa9464b4bad2512c7e8a53ce0',1,'ktxAstcParams::qualityLevel()'],['../structktxBasisParams.html#a37982985e369b713b0cfd6cc58b80a65',1,'ktxBasisParams::qualityLevel()']]],
+  ['queue_1',['queue',['../structktxVulkanDeviceInfo.html#af601e4d82e769a68d7f0a8bcccf3e365',1,'ktxVulkanDeviceInfo']]]
 ];

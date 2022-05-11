@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['classid_0',['classId',['../structktxTexture.html#ae11923c4cea7531e90f46c8e160b9746',1,'ktxTexture']]],
-  ['cmdbuffer_1',['cmdBuffer',['../structktxVulkanDeviceInfo.html#a94ecf9f8949d967b51bc0b381f7e23ae',1,'ktxVulkanDeviceInfo']]],
-  ['cmdpool_2',['cmdPool',['../structktxVulkanDeviceInfo.html#ac53a30dcd52922f0e581cc72e4c6d04a',1,'ktxVulkanDeviceInfo']]],
-  ['compressionlevel_3',['compressionLevel',['../structktxBasisParams.html#a12b6e1a6fc990573927c3affb99cc81a',1,'ktxBasisParams']]]
+  ['basedepth_0',['baseDepth',['../structktxTexture.html#a195423d7a23d2a01243379978e0aab37',1,'ktxTexture::baseDepth()'],['../structktxTextureCreateInfo.html#acd631299f24ac52bc6af9d9303251a0e',1,'ktxTextureCreateInfo::baseDepth()']]],
+  ['baseheight_1',['baseHeight',['../structktxTexture.html#af8674d96c821b560d9116ebb48a926aa',1,'ktxTexture::baseHeight()'],['../structktxTextureCreateInfo.html#af401308b301717196a51015aac339e90',1,'ktxTextureCreateInfo::baseHeight()']]],
+  ['basewidth_2',['baseWidth',['../structktxTexture.html#ac8470a8c8775a60fe5072e63998aadcb',1,'ktxTexture::baseWidth()'],['../structktxTextureCreateInfo.html#ae817666a8c8ef8fbed5d81b52c421b9e',1,'ktxTextureCreateInfo::baseWidth()']]],
+  ['blockdimension_3',['blockDimension',['../structktxAstcParams.html#a7237d6a9efb5f4cd9e737eb35f3b1dca',1,'ktxAstcParams']]]
 ];

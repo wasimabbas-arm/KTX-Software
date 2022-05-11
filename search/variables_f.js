@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['selectorrdothreshold_0',['selectorRDOThreshold',['libktx/structktxBasisParams.html#a998c4122bce4a240622f5db361fcecb2',1,'ktxBasisParams']]],
-  ['separatergtorgb_5fa_1',['separateRGToRGB_A',['libktx/structktxBasisParams.html#ab981f406a51517471c96f85fd19fd3b2',1,'ktxBasisParams']]],
-  ['structsize_2',['structSize',['libktx/structktxAstcParams.html#a7cab0d1eb6d3ed8dc93a5191b1f3c310',1,'ktxAstcParams::structSize()'],['libktx/structktxBasisParams.html#aef37288bf5e390a9b85d5d54c1642848',1,'ktxBasisParams::structSize()']]]
+  ['pallocator_0',['pAllocator',['libktx/structktxVulkanDeviceInfo.html#ab1067ca1dda7c8aa2da946e867622c1e',1,'ktxVulkanDeviceInfo']]],
+  ['pdata_1',['pData',['libktx/structktxTexture.html#a979bf5b23162095d6ca6ba720b134f21',1,'ktxTexture']]],
+  ['pdfd_2',['pDfd',['libktx/structktxTextureCreateInfo.html#a0d39d6c4f004b3d1314d9684ffc3d8b4',1,'ktxTextureCreateInfo']]],
+  ['perceptual_3',['perceptual',['libktx/structktxAstcParams.html#aa9fc440ad82358eb5853c765970101ec',1,'ktxAstcParams']]],
+  ['physicaldevice_4',['physicalDevice',['libktx/structktxVulkanDeviceInfo.html#ac59a6dca1cb19c69dc83eb2271088a0a',1,'ktxVulkanDeviceInfo']]],
+  ['preswizzle_5',['preSwizzle',['libktx/structktxBasisParams.html#ab6e76b713d00fe3784d46eb768262616',1,'ktxBasisParams']]]
 ];

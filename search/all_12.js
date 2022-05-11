@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['selectorrdothreshold_0',['selectorRDOThreshold',['libktx/structktxBasisParams.html#a998c4122bce4a240622f5db361fcecb2',1,'ktxBasisParams']]],
-  ['separatergtorgb_5fa_1',['separateRGToRGB_A',['libktx/structktxBasisParams.html#ab981f406a51517471c96f85fd19fd3b2',1,'ktxBasisParams']]],
-  ['strings_2ec_2',['strings.c',['libktx/strings_8c.html',1,'']]],
-  ['structsize_3',['structSize',['libktx/structktxAstcParams.html#a7cab0d1eb6d3ed8dc93a5191b1f3c310',1,'ktxAstcParams::structSize()'],['libktx/structktxBasisParams.html#aef37288bf5e390a9b85d5d54c1642848',1,'ktxBasisParams::structSize()']]]
+  ['read_0',['read',['libktx/structktxStream.html#aa17e54c2e4a1bf2922d7beb5e6020c23',1,'ktxStream']]],
+  ['reader_1',['Reader',['libktx/group__reader.html',1,'']]],
+  ['readpos_2',['readpos',['libktx/structktxStream.html#a9dd0cf753b4539ebdfbcfc581d4f1d93',1,'ktxStream']]],
+  ['revision_20history_3',['Revision History',['libktx/libktx_history.html',1,'']]]
 ];

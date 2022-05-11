@@ -5,7 +5,7 @@ var annotated_dup =
     [ "ktxHashList", "classktxHashList.html", "classktxHashList" ],
     [ "ktxHashListEntry", "classktxHashListEntry.html", "classktxHashListEntry" ],
     [ "ktxOrientation", "structktxOrientation.html", "structktxOrientation" ],
-    [ "ktxStream", "structktxStream.html", null ],
+    [ "ktxStream", "structktxStream.html", "structktxStream" ],
     [ "ktxTexture", "structktxTexture.html", "structktxTexture" ],
     [ "ktxTexture1", "structktxTexture1.html", "structktxTexture1" ],
     [ "ktxTexture2", "structktxTexture2.html", "structktxTexture2" ],

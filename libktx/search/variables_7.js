@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['image_0',['image',['../structktxVulkanTexture.html#a8e1c1e2f71c9921d1cb47d50a6e7a8cb',1,'ktxVulkanTexture']]],
-  ['imageformat_1',['imageFormat',['../structktxVulkanTexture.html#a51a2976a43d1c449904208ab52ee217f',1,'ktxVulkanTexture']]],
-  ['imagelayout_2',['imageLayout',['../structktxVulkanTexture.html#ad86553423ca7b214849b6a26bd1c4010',1,'ktxVulkanTexture']]],
-  ['inputswizzle_3',['inputSwizzle',['../structktxAstcParams.html#a58e4cfd075352151d0946b63b8892f83',1,'ktxAstcParams::inputSwizzle()'],['../structktxBasisParams.html#a2b3befb6617cde21ca3e5b222257c66c',1,'ktxBasisParams::inputSwizzle()']]],
-  ['isarray_4',['isArray',['../structktxTexture.html#ad18302edd81e0368b93d7fdd517813e8',1,'ktxTexture::isArray()'],['../structktxTextureCreateInfo.html#a7f6d6379fcb54b95769000b3919a659b',1,'ktxTextureCreateInfo::isArray()']]],
-  ['iscubemap_5',['isCubemap',['../structktxTexture.html#a4e9ae7f75a7e1f05ca4f9eacba84db82',1,'ktxTexture']]]
+  ['generatemipmaps_0',['generateMipmaps',['../structktxTexture.html#af312c6853bf3e195ba68d3fe75bda05a',1,'ktxTexture::generateMipmaps()'],['../structktxTextureCreateInfo.html#ae77eda256cb25882c635ca7515811f0e',1,'ktxTextureCreateInfo::generateMipmaps()']]],
+  ['getpos_1',['getpos',['../structktxStream.html#ae8ab60dc9bd427e1e463ad0b5511694e',1,'ktxStream']]],
+  ['getsize_2',['getsize',['../structktxStream.html#ad1c846ec7548a799b206abd621410d8e',1,'ktxStream']]],
+  ['glbaseinternalformat_3',['glBaseInternalformat',['../structktxTexture1.html#a4f1f1752dafd1da10683a2a3a7b6479a',1,'ktxTexture1']]],
+  ['glformat_4',['glFormat',['../structktxTexture1.html#a0baed8d3d343d1743aa2c4631ac6d82e',1,'ktxTexture1']]],
+  ['glinternalformat_5',['glInternalformat',['../structktxTexture1.html#a099ee63cda70e72a691c271d08e4128e',1,'ktxTexture1::glInternalformat()'],['../structktxTextureCreateInfo.html#a6d1bde0fd4b46618d1f15aa519e08c6b',1,'ktxTextureCreateInfo::glInternalformat()']]],
+  ['gltype_6',['glType',['../structktxTexture1.html#a473ead099ab0c2ff82014c8c91b105b3',1,'ktxTexture1']]]
 ];

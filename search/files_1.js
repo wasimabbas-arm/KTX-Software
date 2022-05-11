@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['strings_2ec_0',['strings.c',['libktx/strings_8c.html',1,'']]]
+  ['ktx_2eh_0',['ktx.h',['libktx/ktx_8h.html',1,'']]]
 ];

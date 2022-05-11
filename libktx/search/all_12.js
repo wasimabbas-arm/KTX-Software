@@ -1,12 +1,10 @@
 var searchData=
 [
-  ['uastc_0',['uastc',['../structktxBasisParams.html#a7f9092685bb7f21656c08ada636dded6',1,'ktxBasisParams']]],
-  ['uastcflags_1',['uastcFlags',['../structktxBasisParams.html#a3cae71fd75deacacb658f52917df6db1',1,'ktxBasisParams']]],
-  ['uastcrdo_2',['uastcRDO',['../structktxBasisParams.html#a9d6a6d05cbb6b10bf72ee9e89759581e',1,'ktxBasisParams']]],
-  ['uastcrdodictsize_3',['uastcRDODictSize',['../structktxBasisParams.html#a7022e40fb4d350016de552cca296aedc',1,'ktxBasisParams']]],
-  ['uastcrdodontfavorsimplermodes_4',['uastcRDODontFavorSimplerModes',['../structktxBasisParams.html#ae98de348622faacd1d5f5d7bb5ace7b5',1,'ktxBasisParams']]],
-  ['uastcrdomaxsmoothblockerrorscale_5',['uastcRDOMaxSmoothBlockErrorScale',['../structktxBasisParams.html#a21b9198210b22ff345299b9c1b48bfa1',1,'ktxBasisParams']]],
-  ['uastcrdomaxsmoothblockstddev_6',['uastcRDOMaxSmoothBlockStdDev',['../structktxBasisParams.html#a88590bbf8d6a5edd0afce3356b49c296',1,'ktxBasisParams']]],
-  ['uastcrdonomultithreading_7',['uastcRDONoMultithreading',['../structktxBasisParams.html#ac1d4f91fb9c5a420f76fa7c194c8d04f',1,'ktxBasisParams']]],
-  ['uastcrdoqualityscalar_8',['uastcRDOQualityScalar',['../structktxBasisParams.html#ad2bbffd908482442da4efcea86af1d7d',1,'ktxBasisParams']]]
+  ['selectorrdothreshold_0',['selectorRDOThreshold',['../structktxBasisParams.html#a998c4122bce4a240622f5db361fcecb2',1,'ktxBasisParams']]],
+  ['separatergtorgb_5fa_1',['separateRGToRGB_A',['../structktxBasisParams.html#ab981f406a51517471c96f85fd19fd3b2',1,'ktxBasisParams']]],
+  ['setpos_2',['setpos',['../structktxStream.html#ae8dcb911923136a815c36eef2815fc57',1,'ktxStream']]],
+  ['size_3',['size',['../structktxStream.html#a979421582d6bef249bca11a8dffb6a68',1,'ktxStream']]],
+  ['skip_4',['skip',['../structktxStream.html#a365404fc4ac06c416f2617cd93a942f8',1,'ktxStream']]],
+  ['strings_2ec_5',['strings.c',['../strings_8c.html',1,'']]],
+  ['structsize_6',['structSize',['../structktxAstcParams.html#a7cab0d1eb6d3ed8dc93a5191b1f3c310',1,'ktxAstcParams::structSize()'],['../structktxBasisParams.html#aef37288bf5e390a9b85d5d54c1642848',1,'ktxBasisParams::structSize()']]]
 ];
