@@ -12,5 +12,6 @@ var annotated_dup =
     [ "ktxTexture_vtbl", "structktxTexture__vtbl.html", null ],
     [ "ktxTextureCreateInfo", "structktxTextureCreateInfo.html", "structktxTextureCreateInfo" ],
     [ "ktxVulkanDeviceInfo", "structktxVulkanDeviceInfo.html", "structktxVulkanDeviceInfo" ],
+    [ "ktxVulkanFunctions", "structktxVulkanFunctions.html", null ],
     [ "ktxVulkanTexture", "structktxVulkanTexture.html", "structktxVulkanTexture" ]
 ];

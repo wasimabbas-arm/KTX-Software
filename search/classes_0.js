@@ -12,5 +12,6 @@ var searchData=
   ['ktxtexture_5fvtbl_9',['ktxTexture_vtbl',['libktx/structktxTexture__vtbl.html',1,'']]],
   ['ktxtexturecreateinfo_10',['ktxTextureCreateInfo',['libktx/structktxTextureCreateInfo.html',1,'']]],
   ['ktxvulkandeviceinfo_11',['ktxVulkanDeviceInfo',['libktx/structktxVulkanDeviceInfo.html',1,'']]],
-  ['ktxvulkantexture_12',['ktxVulkanTexture',['libktx/structktxVulkanTexture.html',1,'']]]
+  ['ktxvulkanfunctions_12',['ktxVulkanFunctions',['libktx/structktxVulkanFunctions.html',1,'']]],
+  ['ktxvulkantexture_13',['ktxVulkanTexture',['libktx/structktxVulkanTexture.html',1,'']]]
 ];

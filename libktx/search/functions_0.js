@@ -98,8 +98,10 @@ var searchData=
   ['ktxtexture_5fvkuploadex_95',['ktxTexture_VkUploadEx',['../group__ktx__vkloader.html#ga153164adbd7307ad1844c3e117faa325',1,'ktxTexture']]],
   ['ktxtranscodeformatstring_96',['ktxTranscodeFormatString',['../ktx_8h.html#ac86f20d7858aaacef77f7eee15983470',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c'],['../strings_8c.html#a25b70a70161c149687d0ca19fc839b81',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c']]],
   ['ktxvulkandeviceinfo_5fconstruct_97',['ktxVulkanDeviceInfo_Construct',['../group__ktx__vkloader.html#ga4bc9f0fa9af93d588276f54fe9a6ba50',1,'ktxVulkanDeviceInfo']]],
-  ['ktxvulkandeviceinfo_5fcreate_98',['ktxVulkanDeviceInfo_Create',['../group__ktx__vkloader.html#ga82ac7e21e884652c519d9fe28ad5428c',1,'ktxVulkanDeviceInfo']]],
-  ['ktxvulkandeviceinfo_5fdestroy_99',['ktxVulkanDeviceInfo_Destroy',['../group__ktx__vkloader.html#gaaf633943fbf201fb620c0270c6150fa8',1,'ktxVulkanDeviceInfo']]],
-  ['ktxvulkandeviceinfo_5fdestruct_100',['ktxVulkanDeviceInfo_Destruct',['../group__ktx__vkloader.html#gae58928740420d1ed3f96fd4b0f2d897e',1,'ktxVulkanDeviceInfo']]],
-  ['ktxvulkantexture_5fdestruct_101',['ktxVulkanTexture_Destruct',['../group__ktx__vkloader.html#gaf620a84f6bc59bff03b521e55a654f19',1,'ktxVulkanTexture']]]
+  ['ktxvulkandeviceinfo_5fconstructex_98',['ktxVulkanDeviceInfo_ConstructEx',['../group__ktx__vkloader.html#ga3c9d5bc5ac1d0e237ae62fd94c148764',1,'ktxVulkanDeviceInfo']]],
+  ['ktxvulkandeviceinfo_5fcreate_99',['ktxVulkanDeviceInfo_Create',['../group__ktx__vkloader.html#ga82ac7e21e884652c519d9fe28ad5428c',1,'ktxVulkanDeviceInfo']]],
+  ['ktxvulkandeviceinfo_5fcreateex_100',['ktxVulkanDeviceInfo_CreateEx',['../group__ktx__vkloader.html#ga5137c2d7e23be51160048b3253abad3c',1,'ktxVulkanDeviceInfo']]],
+  ['ktxvulkandeviceinfo_5fdestroy_101',['ktxVulkanDeviceInfo_Destroy',['../group__ktx__vkloader.html#gaaf633943fbf201fb620c0270c6150fa8',1,'ktxVulkanDeviceInfo']]],
+  ['ktxvulkandeviceinfo_5fdestruct_102',['ktxVulkanDeviceInfo_Destruct',['../group__ktx__vkloader.html#gae58928740420d1ed3f96fd4b0f2d897e',1,'ktxVulkanDeviceInfo']]],
+  ['ktxvulkantexture_5fdestruct_103',['ktxVulkanTexture_Destruct',['../group__ktx__vkloader.html#gaf620a84f6bc59bff03b521e55a654f19',1,'ktxVulkanTexture']]]
 ];

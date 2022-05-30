@@ -10,5 +10,7 @@ var structktxVulkanTexture =
     [ "layerCount", "structktxVulkanTexture.html#a7e7fcaf13c3c30d6046137e21a1920d4", null ],
     [ "levelCount", "structktxVulkanTexture.html#afce4a647ee2aa280f0e6957ecc520d43", null ],
     [ "viewType", "structktxVulkanTexture.html#a03ccdaea9ac14f8ebfdf53cc0bbed379", null ],
+    [ "vkDestroyImage", "structktxVulkanTexture.html#a0baaca0a503885c3dde0fe95f2ee02eb", null ],
+    [ "vkFreeMemory", "structktxVulkanTexture.html#a1d4463a12672462f60bf402da43e6287", null ],
     [ "width", "structktxVulkanTexture.html#a7b9da58e222e1f4952d0c570f6419aa6", null ]
 ];
