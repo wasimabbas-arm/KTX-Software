@@ -109,16 +109,19 @@ DESCRIPTION</h1>
 <dd>Rewrite bad orientation metadata. Some in-the-wild KTX files have orientation metadata with the key "KTXOrientation" instead of KTXorientaion. This option will rewrite such bad metadata instead of dropping it. </dd>
 <dt>-o outfile, &ndash;output=outfile </dt>
 <dd>Name the output file <em>outfile</em>. If <em>outfile</em> is 'stdout', output will be written to stdout. If there is more than 1 input file, the command prints its usage message and exits. </dd>
-<dt>-d outdir, &ndash;output-dir=outdir </dt>
-<dd>Writes the output files to the directory <em>outdir</em>. If both <b>--output</b> and <b>--output-dir</b> are specified, <em>outfile</em> will be written in <em>outdir</em>. If <b>infile</b> is <em>stdin</em> or <b>outfile</b> is <em>stdout</em>, the command prints its usage message and exits. </dd>
 <dt>-f, &ndash;force </dt>
-<dd><p class="startdd">If the destination file already exists, remove it and create a new file, without prompting for confirmation regardless of its permissions.</p>
-<p class="enddd"></p>
-</dd>
+<dd>If the destination file already exists, remove it and create a new file, without prompting for confirmation regardless of its permissions. </dd>
 </dl>
+<p><dl>
+<dt>-h, &ndash;help </dt>
+<dd>Print this usage message and exit. </dd>
+<dt>-v, &ndash;version </dt>
+<dd>Print the version number of this program and exit. </dd>
+</dl>
+</p>
 <h1><a class="anchor" id="ktx2ktx2_exitstatus"></a>
 EXIT STATUS</h1>
-<p ><b>toktx</b> exits 0 on success, 1 on command line errors and 2 on functional errors.</p>
+<p ><b>ktx2ktx2</b> exits 0 on success, 1 on command line errors and 2 on functional errors.</p>
 <h1><a class="anchor" id="ktx2ktx2_history"></a>
 HISTORY</h1>
 <dl class="section user"><dt>Version 4.0</dt><dd><ul>
@@ -134,7 +137,7 @@ AUTHOR</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 1 2022 09:32:29 for Khronos Texture Tools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Sat Jul 2 2022 10:04:19 for Khronos Texture Tools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

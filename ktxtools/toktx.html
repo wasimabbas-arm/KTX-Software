@@ -193,7 +193,7 @@ This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b
 <dt>astc: </dt>
 <dd>Create a texture in high-quality ASTC format. </dd>
 <dt>&ndash;astc_blk_d &lt;XxY | XxYxZ&gt; </dt>
-<dd>Specify which block dimension to use for compressing the textures. e.g. <b>--astc_blk_d</b> 6x5 for 2D or <b>--astc_blk_d</b> 6x6x6 for 3D. 6x6 is default for 2D. <table class="doxtable">
+<dd>Specify which block dimension to use for compressing the textures. e.g. <b>--astc_blk_d</b> 6x5 for 2D or <b>--astc_blk_d</b> 6x6x6 for 3D. 6x6 is the default for 2D. <table class="doxtable">
 <tr>
 <th>Supported 2D block dimensions are: </th></tr>
 <tr>
@@ -249,9 +249,9 @@ This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b
 </table>
 </dd>
 <dt>&ndash;astc_mode &lt;ldr | hdr&gt; </dt>
-<dd>Specify which encoding mode to use. LDR is the default unless the input. image is 16-bit in which case the default is HDR. </dd>
+<dd>Specify which encoding mode to use. LDR is the default unless the input image is 16-bit in which case the default is HDR. </dd>
 <dt>&ndash;astc_quality &lt;level&gt; </dt>
-<dd>The quality level configures the quality-performance tradeoff for the compressor; more complete searches of the search space improve image quality at the expense of compression time. Default is 'medium' The quality level can be set to fastest (0) and thorough (100) via the following fixed quality presets: <table class="doxtable">
+<dd>The quality level configures the quality-performance tradeoff for the compressor; more complete searches of the search space improve image quality at the expense of compression time. Default is 'medium'. The quality level can be set between fastest (0) and exhaustive (100) via the following fixed quality presets: <table class="doxtable">
 <tr>
 <th>Level  </th><th>Quality  </th></tr>
 <tr>
@@ -275,7 +275,7 @@ This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b
 <dt>&ndash;no_multithreading </dt>
 <dd>Disable multithreading. Deprecated. For backward compatibility. Use <b>--threads</b> 1 instead. </dd>
 <dt>&ndash;clevel &lt;level&gt; </dt>
-<dd>ETC1S / BasisLZ compression level, an encoding speed vs. quality tradeoff. Range is [0,5], default is 1. Higher values are slower, but give higher quality. </dd>
+<dd>ETC1S / BasisLZ compression level, an encoding speed vs. quality tradeoff. Range is [0,5], default is 1. Higher values are slower but give higher quality. </dd>
 <dt>&ndash;qlevel &lt;level&gt; </dt>
 <dd><p class="startdd">ETC1S / BasisLZ quality level. Range is [1,255]. Lower gives better compression/lower quality/faster. Higher gives less compression/higher quality/slower. <b>--qlevel</b> automatically determines values for <b>--max_endpoints</b>, <b>--max-selectors</b>, <b>--endpoint_rdo_threshold</b> and <b>--selector_rdo_threshold</b> for the target quality level. Setting these options overrides the values determined by -qlevel which defaults to 128 if neither it nor both of <b>--max_endpoints</b> and <b>--max_selectors</b> have been set.</p>
 <p class="interdd">Note that both of <b>--max_endpoints</b> and <b>--max_selectors</b> must be set for them to have any effect. If all three options are set, a warning will be issued that <b>--qlevel</b> will be ignored.</p>
@@ -289,8 +289,6 @@ This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b
 <dd>Manually set the maximum number of color selector clusters from [1,16128]. Default is 0, unset. </dd>
 <dt>&ndash;selector_rdo_threshold &lt;arg&gt; </dt>
 <dd>Set selector RDO quality threshold. The default is 1.25. Lower is higher quality but less quality per output bit (try [1.0,3.0]). This will override the value chosen by <b>--qlevel</b>. </dd>
-<dt>&ndash;separate_rg_to_color_alpha </dt>
-<dd>Separates the input R and G channels to RGB and A (for tangent space XY normal maps). Only needed with 3 or 4 component input images. </dd>
 <dt>&ndash;no_endpoint_rdo </dt>
 <dd>Disable endpoint rate distortion optimizations. Slightly faster, less noisy output, but lower quality per output bit. Default is to do endpoint RDO. </dd>
 <dt>&ndash;no_selector_rdo </dt>
@@ -339,10 +337,10 @@ This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b
     nml.xy = texture(...).ga;              // Load in [0,1]
     nml.xy = nml.xy * 2.0 - 1.0;           // Unpack to [-1,1]
     nml.z = sqrt(1 - dot(nml.xy, nml.xy)); // Compute Z
-               </pre><p> Encoding is optimized for normal maps. For ASTC encoding, '&ndash;encode astc', the encoder is directed to optimize for angular error instead of simple PSNR. For ETC1S encoding, '<b>--encode</b> etc1s', RDO is disabled (no selector RDO, no endpoint RDO) to provide better quality. </p>
+               </pre><p> For ASTC encoding, '&ndash;encode astc', encoder parameters are tuned for better quality on normal maps. For ETC1S encoding, '<b>--encode</b> etc1s', RDO is disabled (no selector RDO, no endpoint RDO) to provide better quality. </p>
 </dd>
 <dt>&ndash;normalize </dt>
-<dd>Normalize input normals to have a unit length. Only valid for linear textures with 2 or more components. For 2-component inputs 2D unit normals are calculated. Do not use this to generate X+Y normals for &ndash;normal_mode. For 4-component inputs a 3D unit normal is calculated. 1.0 is used for the value of the 4th component. </dd>
+<dd>Normalize input normals to have a unit length. Only valid for linear textures with 2 or more components. For 2-component inputs 2D unit normals are calculated. Do not use these 2D unit normals to generate X+Y normals for &ndash;normal_mode. For 4-component inputs a 3D unit normal is calculated. 1.0 is used for the value of the 4th component. </dd>
 <dt>&ndash;no_sse </dt>
 <dd>Forbid use of the SSE instruction set. Ignored if CPU does not support SSE. Only the Basis Universal compressor uses SSE. </dd>
 <dt>&ndash;bcmp </dt>
@@ -357,12 +355,12 @@ This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b
 <dd>Print encoder/compressor activity status to stdout. Currently only the astc, etc1s and uastc encoders emit status. </dd>
 </dl>
 <p><dl>
-<dt>&ndash;help </dt>
+<dt>-h, &ndash;help </dt>
 <dd>Print this usage message and exit. </dd>
-<dt>&ndash;version </dt>
+<dt>-v, &ndash;version </dt>
 <dd>Print the version number of this program and exit. </dd>
 </dl>
-In case of ambiguity, such as when the last option is one with an optional parameter, separate options from file names with " -- ".Any specified ETC1S / BasisLZ and supercompression options are recorded in the metadata item <code>KTXwriterScParams</code> in the output file. </p>
+In case of ambiguity, such as when the last option is one with an optional parameter, separate options from file names with " -- ".Any specified ASTC, ETC1S / BasisLZ, UASTC and supercompression options are recorded in the metadata item <code>KTXwriterScParams</code> in the output file. </p>
 <p >Options can also be set in the environment variable TOKTX_OPTIONS. TOKTX_OPTIONS is parsed first. If conflicting options appear in TOKTX_OPTIONS or the command line, the last one seen wins. However if both <b>--automipmap</b> and <b>--mipmap</b> are seen, it is always flagged as an error. You can, for example, set TOKTX_OPTIONS=&ndash;lower_left_maps_to_s0t0 to change the default mapping of the logical image origin to match the GL convention.</p>
 <h1><a class="anchor" id="toktx_exitstatus"></a>
 EXIT STATUS</h1>
@@ -402,7 +400,7 @@ AUTHOR</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 1 2022 09:32:29 for Khronos Texture Tools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Sat Jul 2 2022 10:04:19 for Khronos Texture Tools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

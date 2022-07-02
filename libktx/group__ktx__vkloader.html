@@ -725,12 +725,13 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">This</td><td>pointer to the <a class="el" href="structktxVulkanDeviceInfo.html" title="Struct for passing information about the Vulkan device on which to create images to the texture image...">ktxVulkanDeviceInfo</a> object to initialize. </td></tr>
+    <tr><td class="paramname">instance</td><td>handle of the Vulkan instance. If <code>VK_NULL_HANDLE</code>, which is not recommended, the function will attempt to initialize the instance-level functions via the platform's standard dynamic library symbol loading mechanisms. </td></tr>
     <tr><td class="paramname">physicalDevice</td><td>handle of the Vulkan physical device. </td></tr>
     <tr><td class="paramname">device</td><td>handle of the Vulkan logical device. </td></tr>
     <tr><td class="paramname">queue</td><td>handle of the Vulkan queue. </td></tr>
     <tr><td class="paramname">cmdPool</td><td>handle of the Vulkan command pool. </td></tr>
     <tr><td class="paramname">pAllocator</td><td>pointer to the allocator to use for the image memory. If NULL, the default allocator will be used. </td></tr>
-    <tr><td class="paramname">pFunctions</td><td>pointer to the struct of functions to use for vulkan operations.</td></tr>
+    <tr><td class="paramname">pFunctions</td><td>pointer to the struct of functions to use for vulkan operations. Can be NULL in which case the function will retrieve the proc addresses itself.</td></tr>
   </table>
   </dd>
 </dl>
@@ -957,7 +958,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 1 2022 09:32:00 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Sat Jul 2 2022 10:03:48 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
