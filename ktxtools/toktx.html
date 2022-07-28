@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('toktx.html',''); initResizable(); });
 <div class="textblock"><p >Create a KTX file from JPEG, PNG or netpbm format files.</p>
 <h1><a class="anchor" id="toktx_synopsis"></a>
 SYNOPSIS</h1>
-<p >toktx [options] <em>outfile</em> [<em>infile</em>.{pam,pgm,ppm} ...]</p>
+<p >toktx [options] <em>outfile</em> [<em>infile</em>.{jpg,png,pam,pgm,ppm} ...]</p>
 <h1><a class="anchor" id="toktx_description"></a>
 DESCRIPTION</h1>
 <p >Create a Khronos format texture file (KTX) from a set of JPEG (.jpg), PNG (.png) or Netpbm format (.pam, .pgm, .ppm) images. It writes the destination ktx file to <em>outfile</em>, appending ".ktx{,2}" if necessary. If <em>outfile</em> is '-' the output will be written to stdout.</p>
@@ -126,7 +126,7 @@ DESCRIPTION</h1>
 <dt>sRGB chunk present: </dt>
 <dd>primaries are set to BT.709 and OETF to sRGB. gAMA and cHRM chunks are ignored. </dd>
 <dt>iCCP chunk present: </dt>
-<dd>General ICC profiles are not yet supported by toktx or the KTX2 format. In future these images may be transformed to linear or sRGB OETF as appropriate for the profile. sRGB chunk must not be present. </dd>
+<dd>General ICC profiles are not yet supported by toktx or the KTX2 format. In future these images may be transformed to linear or sRGB OETF as appropriate for the profile. sRGB chunk must not be present.  </dd>
 <dt>gAMA and/or cHRM chunks present without sRGB or iCCP: </dt>
 <dd>If gAMA is &lt; 60000 the image is transformed to and the OETF is set to sRGB. otherwise the image is transformed to and the OETF is set to linear. The color primaries in cHRM are matched to one of the standard sets listed in the Khronos Data Format Specification (the KHR_DF_PRIMARIES values from khr_df.h) and the primaries field of the output file's DFD is set to the matched value. If no match is found the primaries field is set to UNSPECIFIED. </dd>
 </dl>
@@ -138,7 +138,7 @@ DESCRIPTION</h1>
 <dt>&ndash;cubemap </dt>
 <dd>KTX file is for a cubemap. At least 6 <em>infiles</em> must be provided, more if <b>--mipmap</b> or <b>--layers</b> is also specified. Provide the images in the order +X, -X, +Y, -Y, +Z, -Z where the arrangement is a left-handed coordinate system with +Y up. So if you're facing +Z, -X will be on your left and +X on your right. If <b>--layers</b> &gt; 1 is specified, provide the faces for layer 0 first then for layer 1, etc. Images must have an upper left origin so &ndash;lower_left_maps_to_s0t0 is ignored with this option. </dd>
 <dt>&ndash;depth &lt;number&gt; </dt>
-<dd>KTX file is for a 3D texture with a depth of <em>number</em> where <em>number</em> &gt; 1. Provide the file(s) for z=0 first then those for z=1, etc. It is an error to specify this together with <b>--layers</b> &gt; 1 or <b>--cubemap</b>. </dd>
+<dd>KTX file is for a 3D texture with a depth of <em>number</em> where <em>number</em> &gt; 1. Provide the file(s) for z=0 first then those for z=1, etc. It is an error to specify this together with <b>--layers</b> or <b>--cubemap</b>. </dd>
 <dt>&ndash;genmipmap </dt>
 <dd>Causes mipmaps to be generated for each input file. This option is mutually exclusive with <b>--automipmap</b> and <b>--mipmap</b>. When set, the following mipmap-generation related options become valid, otherwise they are ignored. <dl>
 <dt>&ndash;filter &lt;name&gt; </dt>
@@ -150,9 +150,9 @@ DESCRIPTION</h1>
 </dl>
 </dd>
 <dt>&ndash;layers &lt;number&gt; </dt>
-<dd>KTX file is for an array texture with <em>number</em> of layers where <em>number</em> &gt; 1. Provide the file(s) for layer 0 first then those for layer 1, etc. It is an error to specify this together with <b>--depth</b> &gt; 1. </dd>
+<dd>KTX file is for an array texture with <em>number</em> of layers where <em>number</em> &gt; 0. Provide the file(s) for layer 0 first then those for layer 1, etc. It is an error to specify this together with <b>--depth</b>. </dd>
 <dt>&ndash;levels &lt;number&gt; </dt>
-<dd>KTX file is for a mipmap pyramid with <em>number</em> of levels rather than a full pyramid. <em>number</em> must be &lt;= the maximum number of levels determined from the size of the base image. Provide the base level image first, if using <b>--mipmap</b>. This option is mutually exclusive with <b>--automipmap</b>. </dd>
+<dd>KTX file is for a mipmap pyramid with <em>number</em> of levels rather than a full pyramid. <em>number</em> must be &gt; 1 and &lt;= the maximum number of levels determined from the size of the base level image. Provide the base level image first, if using <b>--mipmap</b>. This option is mutually exclusive with <b>--automipmap</b>. </dd>
 <dt>&ndash;mipmap </dt>
 <dd>KTX file is for a mipmap pyramid with one <b>infile</b> being explicitly provided for each level. Provide the images in the order of layer then face or depth slice then level with the base-level image first then in order down to the 1x1 image or the level specified by <b>--levels</b>. <dl class="section note"><dt>Note</dt><dd>This ordering differs from that in the created texture as it is felt to be more user-friendly.</dd></dl>
 This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b>. </dd>
@@ -178,8 +178,6 @@ This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b
 <dd>Resize images to <em>width</em> X <em>height</em>. This should not be used with <b>--mipmap</b> as it would resize all the images to the same size. Resampler options can be set via <b>--filter</b> and <b>--fscale</b>.  </dd>
 <dt>&ndash;scale &lt;value&gt; </dt>
 <dd>Scale images by <em>value</em> as they are read. Resampler options can be set via <b>--filter</b> and <b>--fscale</b>. . </dd>
-<dt>&ndash;input_swizzle &lt;swizzle&gt; </dt>
-<dd>Swizzle the input components according to <em>swizzle</em> which is an alhpanumeric sequence matching the regular expression <code>^</code>[rgba01]{4}$. </dd>
 <dt>&ndash;swizzle &lt;swizzle&gt; </dt>
 <dd>Add swizzle metadata to the file being created. <em>swizzle</em> has the same syntax as the parameter for <b>--input_swizzle</b>. Not recommended for use with block-cmpressed textures, including Basis Universal formats, because something like <code>rabb</code> may yield drastically different error metrics if done after compression. </dd>
 <dt>&ndash;target_type &lt;type&gt; </dt>
@@ -331,13 +329,16 @@ This option is mutually exclusive with <b>--automipmap</b> and <b>--genmipmap</b
 <dd>Disable RDO multithreading (slightly higher compression, deterministic). </dd>
 </dl>
 </dd>
+<dt>&ndash;input_swizzle &lt;swizzle&gt; </dt>
+<dd>Swizzle the input components according to <em>swizzle</em> which is an alhpanumeric sequence matching the regular expression <code>^</code>[rgba01]{4}$. </dd>
 <dt>&ndash;normal_mode </dt>
 <dd><p class="startdd">Only valid for linear textures with two or more components. If the input texture has three or four linear components it is assumed to be a three component linear normal map storing unit length normals as (R=X, G=Y, B=Z). A fourth component will be ignored. The map will be converted to a two component X+Y normal map stored as (RGB=X, A=Y) prior to encoding. If unsure that your normals are unit length, use <b>--normalize</b>. If the input has 2 linear components it is assumed to be an X+Y map of unit normals.</p>
-<p class="enddd">The Z component can be recovered programmatically in shader code by using the equations: </p><pre>
+<p class="interdd">The Z component can be recovered programmatically in shader code by using the equations: </p><pre>
     nml.xy = texture(...).ga;              // Load in [0,1]
     nml.xy = nml.xy * 2.0 - 1.0;           // Unpack to [-1,1]
     nml.z = sqrt(1 - dot(nml.xy, nml.xy)); // Compute Z
-               </pre><p> For ASTC encoding, '&ndash;encode astc', encoder parameters are tuned for better quality on normal maps. For ETC1S encoding, '<b>--encode</b> etc1s', RDO is disabled (no selector RDO, no endpoint RDO) to provide better quality. </p>
+               </pre><p> For ASTC encoding, '<b>--encode</b> astc', encoder parameters are tuned for better quality on normal maps. For ETC1S encoding, <b>'--encode</b> etc1s', RDO is disabled (no selector RDO, no endpoint RDO) to provide better quality.</p>
+<p class="enddd">In <em>toktx</em> you can prevent conversion of the normal map to two components by specifying '<b>--input_swizzle</b> rgb1'. </p>
 </dd>
 <dt>&ndash;normalize </dt>
 <dd>Normalize input normals to have a unit length. Only valid for linear textures with 2 or more components. For 2-component inputs 2D unit normals are calculated. Do not use these 2D unit normals to generate X+Y normals for &ndash;normal_mode. For 4-component inputs a 3D unit normal is calculated. 1.0 is used for the value of the 4th component. </dd>
@@ -400,7 +401,7 @@ AUTHOR</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 23 2022 05:38:27 for Khronos Texture Tools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Jul 28 2022 00:53:23 for Khronos Texture Tools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
