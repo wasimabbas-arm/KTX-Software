@@ -162,9 +162,9 @@ Data Fields</h2></td></tr>
 <p >If you only want default values, use <a class="el" href="group__writer.html#ga405c44d6daf8ddf83dc805810bf4f989" title="Supercompress a KTX2 texture with uncompressed images.">ktxTexture2_CompressBasis()</a>. Here, at a minimum you must initialize the structure as follows: </p><div class="fragment"><div class="line"><a class="code hl_struct" href="structktxBasisParams.html">ktxBasisParams</a> params = {0};</div>
 <div class="line">params.<a class="code hl_variable" href="structktxBasisParams.html#aef37288bf5e390a9b85d5d54c1642848">structSize</a> = <span class="keyword">sizeof</span>(params);</div>
 <div class="line">params.<a class="code hl_variable" href="structktxBasisParams.html#a12b6e1a6fc990573927c3affb99cc81a">compressionLevel</a> = KTX_ETC1S_DEFAULT_COMPRESSION_LEVEL;</div>
-<div class="ttc" id="astructktxBasisParams_html"><div class="ttname"><a href="structktxBasisParams.html">ktxBasisParams</a></div><div class="ttdoc">Structure for passing extended parameters to ktxTexture2_CompressBasisEx().</div><div class="ttdef"><b>Definition:</b> ktx.h:1252</div></div>
-<div class="ttc" id="astructktxBasisParams_html_a12b6e1a6fc990573927c3affb99cc81a"><div class="ttname"><a href="structktxBasisParams.html#a12b6e1a6fc990573927c3affb99cc81a">ktxBasisParams::compressionLevel</a></div><div class="ttdeci">ktx_uint32_t compressionLevel</div><div class="ttdef"><b>Definition:</b> ktx.h:1271</div></div>
-<div class="ttc" id="astructktxBasisParams_html_aef37288bf5e390a9b85d5d54c1642848"><div class="ttname"><a href="structktxBasisParams.html#aef37288bf5e390a9b85d5d54c1642848">ktxBasisParams::structSize</a></div><div class="ttdeci">ktx_uint32_t structSize</div><div class="ttdef"><b>Definition:</b> ktx.h:1253</div></div>
+<div class="ttc" id="astructktxBasisParams_html"><div class="ttname"><a href="structktxBasisParams.html">ktxBasisParams</a></div><div class="ttdoc">Structure for passing extended parameters to ktxTexture2_CompressBasisEx().</div><div class="ttdef"><b>Definition:</b> ktx.h:1253</div></div>
+<div class="ttc" id="astructktxBasisParams_html_a12b6e1a6fc990573927c3affb99cc81a"><div class="ttname"><a href="structktxBasisParams.html#a12b6e1a6fc990573927c3affb99cc81a">ktxBasisParams::compressionLevel</a></div><div class="ttdeci">ktx_uint32_t compressionLevel</div><div class="ttdef"><b>Definition:</b> ktx.h:1272</div></div>
+<div class="ttc" id="astructktxBasisParams_html_aef37288bf5e390a9b85d5d54c1642848"><div class="ttname"><a href="structktxBasisParams.html#aef37288bf5e390a9b85d5d54c1642848">ktxBasisParams::structSize</a></div><div class="ttdeci">ktx_uint32_t structSize</div><div class="ttdef"><b>Definition:</b> ktx.h:1254</div></div>
 </div><!-- fragment --><p ><em>compressionLevel</em> has to be explicitly set because 0 is a valid <em>compressionLevel</em> but is not the default used by the BasisU encoder when no value is set. Only the other settings that are to be non-default must be non-zero. </p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a12b6e1a6fc990573927c3affb99cc81a" name="a12b6e1a6fc990573927c3affb99cc81a"></a>
@@ -565,7 +565,7 @@ qualityLevel will only determine values for <code>endpointRDOThreshold</code> an
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structktxBasisParams.html">ktxBasisParams</a></li>
-    <li class="footer">Generated on Thu Jul 28 2022 00:53:12 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Aug 1 2022 09:06:26 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"ktx_8h.html#a8f70163f537a794c472479bc5c1905e9af195805d16e6875f46da8dc875b753c5":[6,0,0,0,47,4],
 "ktx_8h.html#a920a40b531d615e674d797fe87d87e09":[6,0,0,0,22],
 "ktx_8h.html#a9b4e1997eff4e29930d5aca784483d57":[6,0,0,0,12],
 "ktx_8h.html#a9cb85e48ab10ea04747de7ef12087670":[6,0,0,0,48],
@@ -42,7 +43,7 @@ var NAVTREEINDEX1 =
 "libktx_history.html#v7":[2,1],
 "libktx_history.html#v8":[2,0],
 "license.html":[1],
-"license.html#autotoc_md2":[1,0],
+"license.html#autotoc_md3":[1,0],
 "memstream_8c.html":[6,0,1,1],
 "memstream_8c.html#a3c0f816438f1e4412376b35fa66f9424":[6,0,1,1,2],
 "memstream_8c.html#a3f9cc251a3604f80da67440efff21b6d":[6,0,1,1,4],

@@ -33,12 +33,13 @@ var NAVTREE =
         [ "Extracting Metadata", "index.html#subsection", null ],
         [ "Writing a KTX or KTX2 file", "index.html#writektx", null ],
         [ "Modifying a KTX file", "index.html#modifyktx", null ],
-        [ "Writing a BasisLZ/ETC1S-compressed Texture", "index.html#autotoc_md0", null ],
-        [ "Transcoding a BasisLZ/ETC1S-compressed Texture", "index.html#autotoc_md1", null ]
+        [ "Writing a Basis-compressed Universal Texture", "index.html#autotoc_md0", null ],
+        [ "Transcoding a BasisLZ/ETC1S or UASTC-compressed Texture", "index.html#autotoc_md1", null ],
+        [ "Writing an ASTC-Compressed Texture", "index.html#autotoc_md2", null ]
       ] ]
     ] ],
     [ "LICENSE file for the KhronosGroup/KTX-Software project", "license.html", [
-      [ "Special Cases", "license.html#autotoc_md2", null ]
+      [ "Special Cases", "license.html#autotoc_md3", null ]
     ] ],
     [ "Revision History", "libktx_history.html", [
       [ "Version 4.0", "libktx_history.html#v8", null ],
@@ -80,7 +81,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"ktx_8h.html#a920a40b531d615e674d797fe87d87e09"
+"ktx_8h.html#a8f70163f537a794c472479bc5c1905e9af195805d16e6875f46da8dc875b753c5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
