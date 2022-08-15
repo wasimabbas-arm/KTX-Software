@@ -140,8 +140,8 @@ Reading a KTX file for non-GL and non-Vulkan Use</h2>
 <div class="line"><span class="comment">// Do something with the texture image.</span></div>
 <div class="line"><span class="comment">// ...</span></div>
 <div class="line"><a class="code hl_define" href="ktx_8h.html#a0becd37ccf729eed8723b969bb93df3d">ktxTexture_Destroy</a>(texture);</div>
-<div class="ttc" id="agroup__reader_html_ga57a1ce0d3f2d66439463160d6ce9d2d0"><div class="ttname"><a href="group__reader.html#ga57a1ce0d3f2d66439463160d6ce9d2d0">ktxTexture::ktxTexture_CreateFromNamedFile</a></div><div class="ttdeci">KTX_error_code ktxTexture_CreateFromNamedFile(const char *const filename, ktxTextureCreateFlags createFlags, ktxTexture **newTex)</div><div class="ttdoc">Create a ktxTexture1 or ktxTexture2 from a named KTX file according to the file contents.</div><div class="ttdef"><b>Definition:</b> texture.c:415</div></div>
-<div class="ttc" id="agroup__reader_html_gace44d98fa78b94c282016e7cf8a88b7e"><div class="ttname"><a href="group__reader.html#gace44d98fa78b94c282016e7cf8a88b7e">ktxTexture::ktxTexture_GetData</a></div><div class="ttdeci">ktx_uint8_t * ktxTexture_GetData(ktxTexture *This)</div><div class="ttdoc">Return a pointer to the texture image data.</div><div class="ttdef"><b>Definition:</b> texture.c:493</div></div>
+<div class="ttc" id="agroup__reader_html_ga57a1ce0d3f2d66439463160d6ce9d2d0"><div class="ttname"><a href="group__reader.html#ga57a1ce0d3f2d66439463160d6ce9d2d0">ktxTexture::ktxTexture_CreateFromNamedFile</a></div><div class="ttdeci">KTX_error_code ktxTexture_CreateFromNamedFile(const char *const filename, ktxTextureCreateFlags createFlags, ktxTexture **newTex)</div><div class="ttdoc">Create a ktxTexture1 or ktxTexture2 from a named KTX file according to the file contents.</div><div class="ttdef"><b>Definition:</b> texture.c:413</div></div>
+<div class="ttc" id="agroup__reader_html_gace44d98fa78b94c282016e7cf8a88b7e"><div class="ttname"><a href="group__reader.html#gace44d98fa78b94c282016e7cf8a88b7e">ktxTexture::ktxTexture_GetData</a></div><div class="ttdeci">ktx_uint8_t * ktxTexture_GetData(ktxTexture *This)</div><div class="ttdoc">Return a pointer to the texture image data.</div><div class="ttdef"><b>Definition:</b> texture.c:491</div></div>
 <div class="ttc" id="aktx_8h_html"><div class="ttname"><a href="ktx_8h.html">ktx.h</a></div><div class="ttdoc">Declares the public functions and structures of the KTX API.</div></div>
 <div class="ttc" id="aktx_8h_html_a0becd37ccf729eed8723b969bb93df3d"><div class="ttname"><a href="ktx_8h.html#a0becd37ccf729eed8723b969bb93df3d">ktxTexture_Destroy</a></div><div class="ttdeci">#define ktxTexture_Destroy(This)</div><div class="ttdoc">Helper for calling the Destroy virtual method of a ktxTexture.</div><div class="ttdef"><b>Definition:</b> ktx.h:524</div></div>
 <div class="ttc" id="aktx_8h_html_a5d741f48293002f70546881d2394b6f6"><div class="ttname"><a href="ktx_8h.html#a5d741f48293002f70546881d2394b6f6">KTX_TEXTURE_CREATE_LOAD_IMAGE_DATA_BIT</a></div><div class="ttdeci">@ KTX_TEXTURE_CREATE_LOAD_IMAGE_DATA_BIT</div><div class="ttdef"><b>Definition:</b> ktx.h:762</div></div>
@@ -380,7 +380,7 @@ Writing a Basis-compressed Universal Texture</h2>
 <div class="line"><span class="comment">// The qualityLevel field in ktxBasisParams is set from this.</span></div>
 <div class="line"><span class="keywordtype">int</span> quality = 0;</div>
 <div class="line">result = <a class="code hl_function" href="group__writer.html#ga405c44d6daf8ddf83dc805810bf4f989">ktxTexture2_CompressBasis</a>(texture, quality);</div>
-<div class="ttc" id="agroup__writer_html_ga405c44d6daf8ddf83dc805810bf4f989"><div class="ttname"><a href="group__writer.html#ga405c44d6daf8ddf83dc805810bf4f989">ktxTexture2::ktxTexture2_CompressBasis</a></div><div class="ttdeci">KTX_error_code ktxTexture2_CompressBasis(ktxTexture2 *This, ktx_uint32_t quality)</div><div class="ttdoc">Supercompress a KTX2 texture with uncompressed images.</div><div class="ttdef"><b>Definition:</b> basis_encode.cpp:1087</div></div>
+<div class="ttc" id="agroup__writer_html_ga405c44d6daf8ddf83dc805810bf4f989"><div class="ttname"><a href="group__writer.html#ga405c44d6daf8ddf83dc805810bf4f989">ktxTexture2::ktxTexture2_CompressBasis</a></div><div class="ttdeci">KTX_error_code ktxTexture2_CompressBasis(ktxTexture2 *This, ktx_uint32_t quality)</div><div class="ttdoc">Supercompress a KTX2 texture with uncompressed images.</div><div class="ttdef"><b>Definition:</b> basis_encode.cpp:1088</div></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md1"></a>
 Transcoding a BasisLZ/ETC1S or UASTC-compressed Texture</h2>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="ktx_8h.html">ktx.h</a>&gt;</span></div>
@@ -483,14 +483,15 @@ Writing an ASTC-Compressed Texture</h2>
 </div><!-- fragment --><p >There is a shortcut that can be used when the only <code>params</code> field you want to modify is the <code>qualityLevel</code>. Remove the declaration and initialization of <code>params</code> in the previous example and replace <code>ktxtexture2_CompressAstcEx</code> with</p>
 <div class="fragment"><div class="line"><span class="comment">// Quality range is 0 - 100. 0 is fastest/lowest. 100 is slowest/highest.</span></div>
 <div class="line"><span class="keywordtype">int</span> quality = <a class="code hl_enumvalue" href="ktx_8h.html#a8f70163f537a794c472479bc5c1905e9a17832137be7a8ff0b839fd41e1abb923">KTX_PACK_ASTC_QUALITY_LEVEL_MEDIUM</a>;</div>
-<div class="line">result = ktxTexture2_CompressAstc(texture, quality);</div>
+<div class="line">result = <a class="code hl_function" href="group__writer.html#ga00b153dbfa1fe115c7d4322dbe07f172">ktxTexture2_CompressAstc</a>(texture, quality);</div>
+<div class="ttc" id="agroup__writer_html_ga00b153dbfa1fe115c7d4322dbe07f172"><div class="ttname"><a href="group__writer.html#ga00b153dbfa1fe115c7d4322dbe07f172">ktxTexture2::ktxTexture2_CompressAstc</a></div><div class="ttdeci">KTX_error_code ktxTexture2_CompressAstc(ktxTexture2 *This, ktx_uint32_t quality)</div><div class="ttdoc">Encode and compress a ktx texture with uncompressed images to astc.</div><div class="ttdef"><b>Definition:</b> astc_encode.cpp:786</div></div>
 </div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Aug 1 2022 13:53:40 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Aug 15 2022 10:40:26 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

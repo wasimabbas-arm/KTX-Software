@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('structktxTexture.html',''); initResiza
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle"><div class="title">ktxTexture Class Reference</div></div>
 </div><!--header-->
@@ -186,6 +187,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:gad0a6406fc9359abd5f6d9956a86ce90f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ktx_8h.html#ad2efa40e38ebae48371375db92d34eaa">KTX_error_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__writer.html#gad0a6406fc9359abd5f6d9956a86ce90f">ktxTexture1_WriteKTX2ToStream</a> (<a class="el" href="structktxTexture1.html">ktxTexture1</a> *This, <a class="el" href="structktxStream.html">ktxStream</a> *dststr)</td></tr>
 <tr class="memdesc:gad0a6406fc9359abd5f6d9956a86ce90f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a <a class="el" href="structktxTexture.html" title="Base class representing a texture.">ktxTexture</a> object to a <a class="el" href="structktxStream.html" title="Interface of ktxStream.">ktxStream</a> in KTX 2 format.  <a href="group__writer.html#gad0a6406fc9359abd5f6d9956a86ce90f">More...</a><br /></td></tr>
 <tr class="separator:gad0a6406fc9359abd5f6d9956a86ce90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:abf498bb06f9a41b3df821e0d2a52f7ef"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structktxAstcParams.html">ktxAstcParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structktxTexture.html#abf498bb06f9a41b3df821e0d2a52f7ef">astcDefaultOptions</a> ()</td></tr>
+<tr class="memdesc:abf498bb06f9a41b3df821e0d2a52f7ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates default ASTC parameters.  <a href="structktxTexture.html#abf498bb06f9a41b3df821e0d2a52f7ef">More...</a><br /></td></tr>
+<tr class="separator:abf498bb06f9a41b3df821e0d2a52f7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30c7f529ebd2c74aa9ab8105f422435"><td class="memItemLeft" align="right" valign="top">static VkFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structktxTexture.html#ab30c7f529ebd2c74aa9ab8105f422435">astcVkFormat</a> (ktx_uint32_t block_size, bool sRGB)</td></tr>
+<tr class="memdesc:ab30c7f529ebd2c74aa9ab8105f422435"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should be used to get VkFormat from ASTC block enum.  <a href="structktxTexture.html#ab30c7f529ebd2c74aa9ab8105f422435">More...</a><br /></td></tr>
+<tr class="separator:ab30c7f529ebd2c74aa9ab8105f422435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7a2ad4d1d251b403c8f8fea697941c"><td class="memItemLeft" align="right" valign="top">static astcenc_profile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structktxTexture.html#aab7a2ad4d1d251b403c8f8fea697941c">astcEncoderAction</a> (const <a class="el" href="structktxAstcParams.html">ktxAstcParams</a> &amp;params, const uint32_t *bdb)</td></tr>
+<tr class="memdesc:aab7a2ad4d1d251b403c8f8fea697941c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates valid ASTC encoder action from string.  <a href="structktxTexture.html#aab7a2ad4d1d251b403c8f8fea697941c">More...</a><br /></td></tr>
+<tr class="separator:aab7a2ad4d1d251b403c8f8fea697941c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc2340b7387e1de253eedc9b425dbf9d"><td class="memItemLeft" align="right" valign="top">static astcenc_swizzle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structktxTexture.html#afc2340b7387e1de253eedc9b425dbf9d">astcSwizzle</a> (const <a class="el" href="structktxAstcParams.html">ktxAstcParams</a> &amp;params)</td></tr>
+<tr class="memdesc:afc2340b7387e1de253eedc9b425dbf9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates valid ASTC encoder swizzle from string.  <a href="structktxTexture.html#afc2340b7387e1de253eedc9b425dbf9d">More...</a><br /></td></tr>
+<tr class="separator:afc2340b7387e1de253eedc9b425dbf9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Data Fields</h2></td></tr>
@@ -346,6 +362,142 @@ ktx_uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pData</b></t
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="abf498bb06f9a41b3df821e0d2a52f7ef" name="abf498bb06f9a41b3df821e0d2a52f7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf498bb06f9a41b3df821e0d2a52f7ef">&#9670;&nbsp;</a></span>astcDefaultOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structktxAstcParams.html">ktxAstcParams</a> astcDefaultOptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates default ASTC parameters. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structktxAstcParams.html" title="Structure for passing extended parameters to ktxTexture_CompressAstc.">ktxAstcParams</a> with default options for ASTC compressor </dd></dl>
+
+</div>
+</div>
+<a id="aab7a2ad4d1d251b403c8f8fea697941c" name="aab7a2ad4d1d251b403c8f8fea697941c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7a2ad4d1d251b403c8f8fea697941c">&#9670;&nbsp;</a></span>astcEncoderAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static astcenc_profile astcEncoderAction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structktxAstcParams.html">ktxAstcParams</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint32_t *&#160;</td>
+          <td class="paramname"><em>bdb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates valid ASTC encoder action from string. </p>
+<dl class="section return"><dt>Returns</dt><dd>Valid astc_profile from string </dd></dl>
+
+</div>
+</div>
+<a id="afc2340b7387e1de253eedc9b425dbf9d" name="afc2340b7387e1de253eedc9b425dbf9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc2340b7387e1de253eedc9b425dbf9d">&#9670;&nbsp;</a></span>astcSwizzle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static astcenc_swizzle astcSwizzle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structktxAstcParams.html">ktxAstcParams</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates valid ASTC encoder swizzle from string. </p>
+<dl class="section return"><dt>Returns</dt><dd>Valid astcenc_swizzle from string </dd></dl>
+
+</div>
+</div>
+<a id="ab30c7f529ebd2c74aa9ab8105f422435" name="ab30c7f529ebd2c74aa9ab8105f422435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab30c7f529ebd2c74aa9ab8105f422435">&#9670;&nbsp;</a></span>astcVkFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static VkFormat astcVkFormat </td>
+          <td>(</td>
+          <td class="paramtype">ktx_uint32_t&#160;</td>
+          <td class="paramname"><em>block_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sRGB</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Should be used to get VkFormat from ASTC block enum. </p>
+<dl class="section return"><dt>Returns</dt><dd>VKFormat for a specific ASTC block size </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Field Documentation</h2>
 <a id="ac8470a8c8775a60fe5072e63998aadcb" name="ac8470a8c8775a60fe5072e63998aadcb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8470a8c8775a60fe5072e63998aadcb">&#9670;&nbsp;</a></span>baseWidth</h2>
@@ -493,7 +645,7 @@ ktx_uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pData</b></t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structktxTexture.html">ktxTexture</a></li>
-    <li class="footer">Generated on Mon Aug 1 2022 13:53:40 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Aug 15 2022 10:40:26 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

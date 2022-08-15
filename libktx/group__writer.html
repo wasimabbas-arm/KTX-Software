@@ -104,6 +104,12 @@ $(document).ready(function(){initNavTree('group__writer.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gaf08421ae0893a9e9205d3e84fad66bd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ktx_8h.html#ad2efa40e38ebae48371375db92d34eaa">KTX_error_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__writer.html#gaf08421ae0893a9e9205d3e84fad66bd8">ktxTexture2::ktxTexture2_CompressAstcEx</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This, <a class="el" href="structktxAstcParams.html">ktxAstcParams</a> *params)</td></tr>
+<tr class="memdesc:gaf08421ae0893a9e9205d3e84fad66bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode and compress a ktx texture with uncompressed images to astc.  <a href="group__writer.html#gaf08421ae0893a9e9205d3e84fad66bd8">More...</a><br /></td></tr>
+<tr class="separator:gaf08421ae0893a9e9205d3e84fad66bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00b153dbfa1fe115c7d4322dbe07f172"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ktx_8h.html#ad2efa40e38ebae48371375db92d34eaa">KTX_error_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__writer.html#ga00b153dbfa1fe115c7d4322dbe07f172">ktxTexture2::ktxTexture2_CompressAstc</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This, ktx_uint32_t quality)</td></tr>
+<tr class="memdesc:ga00b153dbfa1fe115c7d4322dbe07f172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode and compress a ktx texture with uncompressed images to astc.  <a href="group__writer.html#ga00b153dbfa1fe115c7d4322dbe07f172">More...</a><br /></td></tr>
+<tr class="separator:ga00b153dbfa1fe115c7d4322dbe07f172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0e75755e3cc69964e57363dad82ffd77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ktx_8h.html#ad2efa40e38ebae48371375db92d34eaa">KTX_error_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__writer.html#ga0e75755e3cc69964e57363dad82ffd77">ktxTexture2::ktxTexture2_CompressBasisEx</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This, <a class="el" href="structktxBasisParams.html">ktxBasisParams</a> *params)</td></tr>
 <tr class="memdesc:ga0e75755e3cc69964e57363dad82ffd77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode and possibly Supercompress a KTX2 texture with uncompressed images.  <a href="group__writer.html#ga0e75755e3cc69964e57363dad82ffd77">More...</a><br /></td></tr>
 <tr class="separator:ga0e75755e3cc69964e57363dad82ffd77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -804,6 +810,109 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga00b153dbfa1fe115c7d4322dbe07f172" name="ga00b153dbfa1fe115c7d4322dbe07f172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00b153dbfa1fe115c7d4322dbe07f172">&#9670;&nbsp;</a></span>ktxTexture2_CompressAstc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="ktx_8h.html#ad2efa40e38ebae48371375db92d34eaa">KTX_error_code</a> ktxTexture2_CompressAstc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structktxTexture2.html">ktxTexture2</a> *&#160;</td>
+          <td class="paramname"><em>This</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ktx_uint32_t&#160;</td>
+          <td class="paramname"><em>quality</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Encode and compress a ktx texture with uncompressed images to astc. </p>
+<p >The images are either encoded to ASTC block-compressed format. The encoded images replace the original images and the texture's fields including the DFD are modified to reflect the new state.</p>
+<p >Such textures can be directly uploaded to a GPU via a graphics API.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">This</td><td>pointer to the <a class="el" href="structktxTexture2.html" title="Class representing a KTX version 2 format texture.">ktxTexture2</a> object of interest. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>Compression quality, a value from 0 - 100. Higher=higher quality/slower speed. Lower=lower quality/faster speed. Negative values for quality are considered &gt; 100.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>KTX_SUCCESS on success, other KTX_* enum values on error.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture is already supercompressed. </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture's image are in a block compressed format. </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture image's format is a packed format (e.g. RGB565). </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture image format's component size is not 8-bits. </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture's images are 1D. Only 2D images can be supercompressed. </td></tr>
+    <tr><td class="paramname">KTX_OUT_OF_MEMORY</td><td>Not enough memory to carry out supercompression. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf08421ae0893a9e9205d3e84fad66bd8" name="gaf08421ae0893a9e9205d3e84fad66bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf08421ae0893a9e9205d3e84fad66bd8">&#9670;&nbsp;</a></span>ktxTexture2_CompressAstcEx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="ktx_8h.html#ad2efa40e38ebae48371375db92d34eaa">KTX_error_code</a> ktxTexture2_CompressAstcEx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structktxTexture2.html">ktxTexture2</a> *&#160;</td>
+          <td class="paramname"><em>This</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structktxAstcParams.html">ktxAstcParams</a> *&#160;</td>
+          <td class="paramname"><em>params</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Encode and compress a ktx texture with uncompressed images to astc. </p>
+<p >The images are encoded to ASTC block-compressed format. The encoded images replace the original images and the texture's fields including the DFD are modified to reflect the new state.</p>
+<p >Such textures can be directly uploaded to a GPU via a graphics API.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">This</td><td>pointer to the <a class="el" href="structktxTexture2.html" title="Class representing a KTX version 2 format texture.">ktxTexture2</a> object of interest. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">params</td><td>pointer to ASTC params object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>KTX_SUCCESS on success, other KTX_* enum values on error.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture's images are supercompressed. </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture's images are in a block compressed format. </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture image's format is a packed format (e.g. RGB565). </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture image format's component size is not 8-bits. </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>The texture's images are 1D. Only 2D images can be supercompressed. </td></tr>
+    <tr><td class="paramname">KTX_INVALID_OPERATION</td><td>ASTC compressor failed to compress image for any reason. </td></tr>
+    <tr><td class="paramname">KTX_OUT_OF_MEMORY</td><td>Not enough memory to carry out compression. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga405c44d6daf8ddf83dc805810bf4f989" name="ga405c44d6daf8ddf83dc805810bf4f989"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga405c44d6daf8ddf83dc805810bf4f989">&#9670;&nbsp;</a></span>ktxTexture2_CompressBasis()</h2>
 
@@ -1422,7 +1531,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Aug 1 2022 13:53:40 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Mon Aug 15 2022 10:40:26 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

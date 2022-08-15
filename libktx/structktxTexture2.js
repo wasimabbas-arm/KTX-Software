@@ -1,5 +1,7 @@
 var structktxTexture2 =
 [
+    [ "ktxTexture2_CompressAstc", "group__writer.html#ga00b153dbfa1fe115c7d4322dbe07f172", null ],
+    [ "ktxTexture2_CompressAstcEx", "group__writer.html#gaf08421ae0893a9e9205d3e84fad66bd8", null ],
     [ "ktxTexture2_CompressBasis", "group__writer.html#ga405c44d6daf8ddf83dc805810bf4f989", null ],
     [ "ktxTexture2_CompressBasisEx", "group__writer.html#ga0e75755e3cc69964e57363dad82ffd77", null ],
     [ "ktxTexture2_Create", "group__writer.html#ga9ff411caf2251c100a581960deaf9bb7", null ],
