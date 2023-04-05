@@ -1,16 +1,16 @@
 var structktxVulkanTexture =
 [
     [ "ktxVulkanTexture_Destruct", "group__ktx__vkloader.html#gaf620a84f6bc59bff03b521e55a654f19", null ],
-    [ "depth", "structktxVulkanTexture.html#af990e0fd73d55500f48d616a0f35a470", null ],
-    [ "deviceMemory", "structktxVulkanTexture.html#ae78e0952193debfc52b76f2978cca58c", null ],
-    [ "height", "structktxVulkanTexture.html#aaf35829f0694dedb8e05f19e787301c1", null ],
-    [ "image", "structktxVulkanTexture.html#a8e1c1e2f71c9921d1cb47d50a6e7a8cb", null ],
-    [ "imageFormat", "structktxVulkanTexture.html#a51a2976a43d1c449904208ab52ee217f", null ],
-    [ "imageLayout", "structktxVulkanTexture.html#ad86553423ca7b214849b6a26bd1c4010", null ],
-    [ "layerCount", "structktxVulkanTexture.html#a7e7fcaf13c3c30d6046137e21a1920d4", null ],
-    [ "levelCount", "structktxVulkanTexture.html#afce4a647ee2aa280f0e6957ecc520d43", null ],
-    [ "viewType", "structktxVulkanTexture.html#a03ccdaea9ac14f8ebfdf53cc0bbed379", null ],
-    [ "vkDestroyImage", "structktxVulkanTexture.html#a0baaca0a503885c3dde0fe95f2ee02eb", null ],
-    [ "vkFreeMemory", "structktxVulkanTexture.html#a1d4463a12672462f60bf402da43e6287", null ],
-    [ "width", "structktxVulkanTexture.html#a7b9da58e222e1f4952d0c570f6419aa6", null ]
+    [ "depth", "structktxVulkanTexture.html#af43b771026fceb9a0b28256afc08f69b", null ],
+    [ "deviceMemory", "structktxVulkanTexture.html#a68699cf926eef628d726fe0fa402c34d", null ],
+    [ "height", "structktxVulkanTexture.html#a6ad4f820ce4e75cda0686fcaad5168be", null ],
+    [ "image", "structktxVulkanTexture.html#ac48af4a2f518b64b67c40aa0efa7de6b", null ],
+    [ "imageFormat", "structktxVulkanTexture.html#ad2bc860aeb9a158aa37eb3e09db3638e", null ],
+    [ "imageLayout", "structktxVulkanTexture.html#ad69bab0528dbcee4c8780b488670a179", null ],
+    [ "layerCount", "structktxVulkanTexture.html#a387ad43ce8155b27c8feab827f437a40", null ],
+    [ "levelCount", "structktxVulkanTexture.html#afaaf1db5d13d0299791944833b03af9c", null ],
+    [ "viewType", "structktxVulkanTexture.html#a3da1a8fe11560f0b2fa98a07e12a1fb7", null ],
+    [ "vkDestroyImage", "structktxVulkanTexture.html#ab0a61f410df5e84b033e0628354286b1", null ],
+    [ "vkFreeMemory", "structktxVulkanTexture.html#a190ebc88642185342b8503667919d276", null ],
+    [ "width", "structktxVulkanTexture.html#a325272ddd9a962f05deb905101d25cbd", null ]
 ];

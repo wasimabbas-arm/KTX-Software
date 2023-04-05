@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['maxendpoints_0',['maxEndpoints',['../structktxBasisParams.html#af4e007287df7d420666e55d5622e8daa',1,'ktxBasisParams']]],
-  ['maxselectors_1',['maxSelectors',['../structktxBasisParams.html#a39cff8b65fcc4d675e73a58efc28ad23',1,'ktxBasisParams']]],
-  ['mem_2',['mem',['../structktxStream.html#a08dc572d414b284f210d9f3c5f2426ae',1,'ktxStream']]],
+  ['maxendpoints_0',['maxEndpoints',['../structktxBasisParams.html#a47519cb97d15ade856f899023eab9960',1,'ktxBasisParams']]],
+  ['maxselectors_1',['maxSelectors',['../structktxBasisParams.html#a93a37769ec5b285051083aa8457e1d1a',1,'ktxBasisParams']]],
+  ['mem_2',['mem',['../structktxStream.html#a2f3b4c3238e6625fb92d53b1c62389cb',1,'ktxStream']]],
   ['memstream_2ec_3',['memstream.c',['../memstream_8c.html',1,'']]],
-  ['mode_4',['mode',['../structktxAstcParams.html#ae099248aee08f8e48e2131b4c4d205a2',1,'ktxAstcParams']]]
+  ['mode_4',['mode',['../structktxAstcParams.html#aa02c398f7c7872860347560f4a33fd57',1,'ktxAstcParams']]]
 ];

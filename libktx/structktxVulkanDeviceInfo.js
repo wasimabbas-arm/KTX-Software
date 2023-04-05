@@ -6,13 +6,13 @@ var structktxVulkanDeviceInfo =
     [ "ktxVulkanDeviceInfo_CreateEx", "group__ktx__vkloader.html#ga5137c2d7e23be51160048b3253abad3c", null ],
     [ "ktxVulkanDeviceInfo_Destroy", "group__ktx__vkloader.html#gaaf633943fbf201fb620c0270c6150fa8", null ],
     [ "ktxVulkanDeviceInfo_Destruct", "group__ktx__vkloader.html#gae58928740420d1ed3f96fd4b0f2d897e", null ],
-    [ "cmdBuffer", "structktxVulkanDeviceInfo.html#a94ecf9f8949d967b51bc0b381f7e23ae", null ],
-    [ "cmdPool", "structktxVulkanDeviceInfo.html#ac53a30dcd52922f0e581cc72e4c6d04a", null ],
-    [ "device", "structktxVulkanDeviceInfo.html#a6021332b7544982e536f1b88d2758999", null ],
-    [ "deviceMemoryProperties", "structktxVulkanDeviceInfo.html#afa5fb09215087b5ff27022eeab52c7e8", null ],
-    [ "instance", "structktxVulkanDeviceInfo.html#af68050c4d852346a77a4f027a1b60df9", null ],
-    [ "pAllocator", "structktxVulkanDeviceInfo.html#ab1067ca1dda7c8aa2da946e867622c1e", null ],
-    [ "physicalDevice", "structktxVulkanDeviceInfo.html#ac59a6dca1cb19c69dc83eb2271088a0a", null ],
-    [ "queue", "structktxVulkanDeviceInfo.html#af601e4d82e769a68d7f0a8bcccf3e365", null ],
-    [ "vkFuncs", "structktxVulkanDeviceInfo.html#a172e332d0cd82e949bfe06074392a303", null ]
+    [ "cmdBuffer", "structktxVulkanDeviceInfo.html#a8d2064b68f606e62edad9d1a8dcab4ca", null ],
+    [ "cmdPool", "structktxVulkanDeviceInfo.html#ab3f05272e12842d5d4d29fca7baa2e50", null ],
+    [ "device", "structktxVulkanDeviceInfo.html#a8aef703a0ef81f8277415b03129f44d7", null ],
+    [ "deviceMemoryProperties", "structktxVulkanDeviceInfo.html#a8adaad9220e0679d7cfc0c521d8c1736", null ],
+    [ "instance", "structktxVulkanDeviceInfo.html#ab264f628c25b3571174ecdd626526958", null ],
+    [ "pAllocator", "structktxVulkanDeviceInfo.html#a3e22f7507185cca6b31fb443453ad48e", null ],
+    [ "physicalDevice", "structktxVulkanDeviceInfo.html#ac2810ac3274fecd32eedb3e6af340df0", null ],
+    [ "queue", "structktxVulkanDeviceInfo.html#ab3246009ce333f50c2ca3d8187c3849e", null ],
+    [ "vkFuncs", "structktxVulkanDeviceInfo.html#aa89ac6b3401b08de40b59bdb4863b331", null ]
 ];

@@ -22,7 +22,7 @@ var group__reader =
     [ "ktxTexture2::ktxTexture2_GetNumComponents", "group__reader.html#gacc7762adb6ff311ca65cfe5ed89db21e", null ],
     [ "ktxTexture2::ktxTexture2_GetOETF", "group__reader.html#gac1b0eccd69f541450ed88da2ad260dcc", null ],
     [ "ktxTexture2::ktxTexture2_GetPremultipliedAlpha", "group__reader.html#gab773b3ad45bacb6f487b62c4b0a07fcf", null ],
-    [ "ktxTexture::ktxTexture2_IterateLevels", "group__reader.html#ga1b47270a151b67615aed9eeca5f25bf7", null ],
+    [ "ktxTexture2::ktxTexture2_IterateLevels", "group__reader.html#ga1b47270a151b67615aed9eeca5f25bf7", null ],
     [ "ktxTexture2::ktxTexture2_IterateLoadLevelFaces", "group__reader.html#gaf57628ec7f9a554b46ba84ab9c214bab", null ],
     [ "ktxTexture2::ktxTexture2_LoadImageData", "group__reader.html#ga09ecbaccf2a058f9e756ebb317230162", null ],
     [ "ktxTexture2::ktxTexture2_NeedsTranscoding", "group__reader.html#gade1ffc5d31c2f9b5f1e861b59e7619ce", null ],

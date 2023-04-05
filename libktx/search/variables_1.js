@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['address_0',['address',['../structktxStream.html#ae3dc85ef84763591374d5fde1578f043',1,'ktxStream']]],
-  ['allocatoraddress_1',['allocatorAddress',['../structktxStream.html#aa0776be26bab04e2229fad69d02859c5',1,'ktxStream']]]
+  ['address_0',['address',['../structktxStream.html#ab96816d317aa5196e2ef198d9a8d621b',1,'ktxStream']]],
+  ['allocatoraddress_1',['allocatorAddress',['../structktxStream.html#a6de39e2650d144d37e3f2c32081dd55f',1,'ktxStream']]]
 ];

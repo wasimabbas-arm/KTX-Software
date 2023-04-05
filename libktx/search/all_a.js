@@ -166,7 +166,7 @@ var searchData=
   ['ktxtexture1_5fwritektx2tomemory_163',['ktxTexture1_WriteKTX2ToMemory',['../group__writer.html#gadbc6058afa50d4db3efd738822e6296a',1,'ktxTexture1']]],
   ['ktxtexture1_5fwritektx2tonamedfile_164',['ktxTexture1_WriteKTX2ToNamedFile',['../group__writer.html#ga3009e876fb584268241a9ba7704e8557',1,'ktxTexture1']]],
   ['ktxtexture1_5fwritektx2tostdiostream_165',['ktxTexture1_WriteKTX2ToStdioStream',['../group__writer.html#gac31b3532ed02d8cd4a7b517d4d2ab6ef',1,'ktxTexture1']]],
-  ['ktxtexture1_5fwritektx2tostream_166',['ktxTexture1_WriteKTX2ToStream',['../group__writer.html#gad0a6406fc9359abd5f6d9956a86ce90f',1,'ktxTexture']]],
+  ['ktxtexture1_5fwritektx2tostream_166',['ktxTexture1_WriteKTX2ToStream',['../group__writer.html#gad0a6406fc9359abd5f6d9956a86ce90f',1,'ktxTexture1']]],
   ['ktxtexture1_5fwritetomemory_167',['ktxTexture1_WriteToMemory',['../group__writer.html#ga21904a85ada4ee322b87c309566ea4d1',1,'ktxTexture']]],
   ['ktxtexture1_5fwritetonamedfile_168',['ktxTexture1_WriteToNamedFile',['../group__writer.html#gafe0d51799d92b69cdcbe30c98322340b',1,'ktxTexture']]],
   ['ktxtexture1_5fwritetostdiostream_169',['ktxTexture1_WriteToStdioStream',['../group__writer.html#ga924da3380253c85fffca8c956e00d5c0',1,'ktxTexture']]],
@@ -193,7 +193,7 @@ var searchData=
   ['ktxtexture2_5fgetpremultipliedalpha_190',['ktxTexture2_GetPremultipliedAlpha',['../group__reader.html#gab773b3ad45bacb6f487b62c4b0a07fcf',1,'ktxTexture2']]],
   ['ktxtexture2_5fgetvkformat_191',['ktxTexture2_GetVkFormat',['../group__ktx__vkloader.html#ga7a9baaf3aa2e114c6f6e58fe68051815',1,'ktxTexture2']]],
   ['ktxtexture2_5fglupload_192',['ktxTexture2_GLUpload',['../group__ktx__glloader.html#ga7624860df8e44573862fa5754ea2976c',1,'ktxTexture2']]],
-  ['ktxtexture2_5fiteratelevels_193',['ktxTexture2_IterateLevels',['../group__reader.html#ga1b47270a151b67615aed9eeca5f25bf7',1,'ktxTexture']]],
+  ['ktxtexture2_5fiteratelevels_193',['ktxTexture2_IterateLevels',['../group__reader.html#ga1b47270a151b67615aed9eeca5f25bf7',1,'ktxTexture2']]],
   ['ktxtexture2_5fiterateloadlevelfaces_194',['ktxTexture2_IterateLoadLevelFaces',['../group__reader.html#gaf57628ec7f9a554b46ba84ab9c214bab',1,'ktxTexture2']]],
   ['ktxtexture2_5floadimagedata_195',['ktxTexture2_LoadImageData',['../group__reader.html#ga09ecbaccf2a058f9e756ebb317230162',1,'ktxTexture2']]],
   ['ktxtexture2_5fneedstranscoding_196',['ktxTexture2_NeedsTranscoding',['../group__reader.html#gade1ffc5d31c2f9b5f1e861b59e7619ce',1,'ktxTexture2']]],
@@ -239,7 +239,7 @@ var searchData=
   ['ktxtexturecreateflags_236',['ktxTextureCreateFlags',['../structktxTexture.html#a1cce9de12eb3974a236becfd098bd057',1,'ktxTexture']]],
   ['ktxtexturecreateinfo_237',['ktxTextureCreateInfo',['../structktxTextureCreateInfo.html',1,'']]],
   ['ktxtexturecreatestorageenum_238',['ktxTextureCreateStorageEnum',['../structktxTexture.html#af0602c48f60fc85c4d59c1c58f624a2b',1,'ktxTexture']]],
-  ['ktxtranscodeformatstring_239',['ktxTranscodeFormatString',['../ktx_8h.html#ac86f20d7858aaacef77f7eee15983470',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c'],['../strings_8c.html#a25b70a70161c149687d0ca19fc839b81',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c']]],
+  ['ktxtranscodeformatstring_239',['ktxTranscodeFormatString',['../strings_8c.html#a25b70a70161c149687d0ca19fc839b81',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c'],['../ktx_8h.html#ac86f20d7858aaacef77f7eee15983470',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c']]],
   ['ktxvulkandeviceinfo_240',['ktxVulkanDeviceInfo',['../structktxVulkanDeviceInfo.html',1,'']]],
   ['ktxvulkandeviceinfo_5fconstruct_241',['ktxVulkanDeviceInfo_Construct',['../group__ktx__vkloader.html#ga4bc9f0fa9af93d588276f54fe9a6ba50',1,'ktxVulkanDeviceInfo']]],
   ['ktxvulkandeviceinfo_5fconstructex_242',['ktxVulkanDeviceInfo_ConstructEx',['../group__ktx__vkloader.html#ga3c9d5bc5ac1d0e237ae62fd94c148764',1,'ktxVulkanDeviceInfo']]],
@@ -250,7 +250,7 @@ var searchData=
   ['ktxvulkanfunctions_247',['ktxVulkanFunctions',['../structktxVulkanFunctions.html',1,'']]],
   ['ktxvulkantexture_248',['ktxVulkanTexture',['../structktxVulkanTexture.html',1,'']]],
   ['ktxvulkantexture_5fdestruct_249',['ktxVulkanTexture_Destruct',['../group__ktx__vkloader.html#gaf620a84f6bc59bff03b521e55a654f19',1,'ktxVulkanTexture']]],
-  ['kvdata_250',['kvData',['../structktxTexture.html#aeae5d0c9f8403c73b435e60af23f8d61',1,'ktxTexture']]],
-  ['kvdatahead_251',['kvDataHead',['../structktxTexture.html#a3bb33b1858f6faf8bbb8f4660e778138',1,'ktxTexture']]],
-  ['kvdatalen_252',['kvDataLen',['../structktxTexture.html#aa7a8a94d257c5e6de13075734f99cc9c',1,'ktxTexture']]]
+  ['kvdata_250',['kvData',['../structktxTexture.html#ae5d4a710cbfb6d279bfed49866c96257',1,'ktxTexture']]],
+  ['kvdatahead_251',['kvDataHead',['../structktxTexture.html#a55e340e0ce00e4eeb527402f98740cf7',1,'ktxTexture']]],
+  ['kvdatalen_252',['kvDataLen',['../structktxTexture.html#a9bdd579f40b9233d2226e409600f4c83',1,'ktxTexture']]]
 ];

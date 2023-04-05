@@ -21,6 +21,7 @@ var structktxTexture2 =
     [ "ktxTexture2_GetPremultipliedAlpha", "group__reader.html#gab773b3ad45bacb6f487b62c4b0a07fcf", null ],
     [ "ktxTexture2_GetVkFormat", "group__ktx__vkloader.html#ga7a9baaf3aa2e114c6f6e58fe68051815", null ],
     [ "ktxTexture2_GLUpload", "group__ktx__glloader.html#ga7624860df8e44573862fa5754ea2976c", null ],
+    [ "ktxTexture2_IterateLevels", "group__reader.html#ga1b47270a151b67615aed9eeca5f25bf7", null ],
     [ "ktxTexture2_IterateLoadLevelFaces", "group__reader.html#gaf57628ec7f9a554b46ba84ab9c214bab", null ],
     [ "ktxTexture2_LoadImageData", "group__reader.html#ga09ecbaccf2a058f9e756ebb317230162", null ],
     [ "ktxTexture2_NeedsTranscoding", "group__reader.html#gade1ffc5d31c2f9b5f1e861b59e7619ce", null ],
@@ -33,5 +34,5 @@ var structktxTexture2 =
     [ "ktxTexture2_WriteToNamedFile", "group__writer.html#ga745cee3857ade59e612c533d6faa8e2a", null ],
     [ "ktxTexture2_WriteToStdioStream", "group__writer.html#gadf2c2542471b7a94636216807cedd819", null ],
     [ "ktxTexture2_WriteToStream", "group__writer.html#gacb722c7d0c1df7e6e3b4caa78ae729cf", null ],
-    [ "_private", "structktxTexture2.html#adb43fe7291ac49f5d28f7ca34907d7bb", null ]
+    [ "_private", "structktxTexture2.html#a0093ccc55cbbc2d352e6e1e8d8fbc2ab", null ]
 ];

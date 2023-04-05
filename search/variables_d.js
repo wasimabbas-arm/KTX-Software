@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['noendpointrdo_0',['noEndpointRDO',['libktx/structktxBasisParams.html#a24951ae41577c7f0bfdf42c122584ac7',1,'ktxBasisParams']]],
-  ['normalmap_1',['normalMap',['libktx/structktxAstcParams.html#a851b456747e20153a76f6a1a44b55205',1,'ktxAstcParams::normalMap()'],['libktx/structktxBasisParams.html#af2594a3262044caa4b7896f20c260ea0',1,'ktxBasisParams::normalMap()']]],
-  ['noselectorrdo_2',['noSelectorRDO',['libktx/structktxBasisParams.html#ad5da44a6855e532ae2466f9f412ce6c6',1,'ktxBasisParams']]],
-  ['nosse_3',['noSSE',['libktx/structktxBasisParams.html#a20c1b813b1298d8e6d1b13232bbe2f46',1,'ktxBasisParams']]],
-  ['numdimensions_4',['numDimensions',['libktx/structktxTexture.html#a314ae942ddb59643777ec4ba040fd448',1,'ktxTexture::numDimensions()'],['libktx/structktxTextureCreateInfo.html#aee982947789840643580ef13d9209124',1,'ktxTextureCreateInfo::numDimensions()']]],
-  ['numfaces_5',['numFaces',['libktx/structktxTexture.html#a46234ef09e2c28591ab4654f8eac12a0',1,'ktxTexture::numFaces()'],['libktx/structktxTextureCreateInfo.html#ad0f09614599bd18f0430d2e3e3f2acf1',1,'ktxTextureCreateInfo::numFaces()']]],
-  ['numlayers_6',['numLayers',['libktx/structktxTextureCreateInfo.html#a237cfa756c1b49169d769442c1c5492a',1,'ktxTextureCreateInfo']]],
-  ['numlevels_7',['numLevels',['libktx/structktxTexture.html#a2b452d1475b8d246839882e26fe3203b',1,'ktxTexture::numLevels()'],['libktx/structktxTextureCreateInfo.html#a5bc01f6ce3a1082921cc307d80b4662c',1,'ktxTextureCreateInfo::numLevels()']]]
+  ['noendpointrdo_0',['noEndpointRDO',['libktx/structktxBasisParams.html#a24b0d409b2fbd536216196ca4e27358f',1,'ktxBasisParams']]],
+  ['normalmap_1',['normalMap',['libktx/structktxAstcParams.html#a59af70a939f66dce9749174c12cc3725',1,'ktxAstcParams::normalMap()'],['libktx/structktxBasisParams.html#a59af70a939f66dce9749174c12cc3725',1,'ktxBasisParams::normalMap()']]],
+  ['noselectorrdo_2',['noSelectorRDO',['libktx/structktxBasisParams.html#a740b64ff37292977ab3cf04d3fb3cd6b',1,'ktxBasisParams']]],
+  ['nosse_3',['noSSE',['libktx/structktxBasisParams.html#a0024310d24bafd33ab41de3bd7dd6887',1,'ktxBasisParams']]],
+  ['numdimensions_4',['numDimensions',['libktx/structktxTexture.html#ae4378ab23f88acb257e6b4c1d8f64bb8',1,'ktxTexture::numDimensions()'],['libktx/structktxTextureCreateInfo.html#a3c48573960eb90b1e38cc70457d2cda1',1,'ktxTextureCreateInfo::numDimensions()']]],
+  ['numfaces_5',['numFaces',['libktx/structktxTexture.html#acc36239d64c8e0562a7a14ccd140af70',1,'ktxTexture::numFaces()'],['libktx/structktxTextureCreateInfo.html#a3a4bc2fa2e41bcec0bdb265505af0068',1,'ktxTextureCreateInfo::numFaces()']]],
+  ['numlayers_6',['numLayers',['libktx/structktxTextureCreateInfo.html#ae1412e2bd82ef1baa7cb1479735d9c86',1,'ktxTextureCreateInfo']]],
+  ['numlevels_7',['numLevels',['libktx/structktxTexture.html#aad80dfe68bfa0c1ddcc127c4c6e1dda8',1,'ktxTexture::numLevels()'],['libktx/structktxTextureCreateInfo.html#a782126a62c27ee8660a14565b906694c',1,'ktxTextureCreateInfo::numLevels()']]]
 ];

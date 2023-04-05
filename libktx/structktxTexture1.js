@@ -18,9 +18,10 @@ var structktxTexture1 =
     [ "ktxTexture1_WriteKTX2ToMemory", "group__writer.html#gadbc6058afa50d4db3efd738822e6296a", null ],
     [ "ktxTexture1_WriteKTX2ToNamedFile", "group__writer.html#ga3009e876fb584268241a9ba7704e8557", null ],
     [ "ktxTexture1_WriteKTX2ToStdioStream", "group__writer.html#gac31b3532ed02d8cd4a7b517d4d2ab6ef", null ],
-    [ "_private", "structktxTexture1.html#aab7ae8cc9202a464a367634f006964c6", null ],
-    [ "glBaseInternalformat", "structktxTexture1.html#a4f1f1752dafd1da10683a2a3a7b6479a", null ],
-    [ "glFormat", "structktxTexture1.html#a0baed8d3d343d1743aa2c4631ac6d82e", null ],
-    [ "glInternalformat", "structktxTexture1.html#a099ee63cda70e72a691c271d08e4128e", null ],
-    [ "glType", "structktxTexture1.html#a473ead099ab0c2ff82014c8c91b105b3", null ]
+    [ "ktxTexture1_WriteKTX2ToStream", "group__writer.html#gad0a6406fc9359abd5f6d9956a86ce90f", null ],
+    [ "_private", "structktxTexture1.html#a2113cfebb1a5e3328ce7a89d21e7cdab", null ],
+    [ "glBaseInternalformat", "structktxTexture1.html#aaadefe13bf76c26cb921afa52fb29192", null ],
+    [ "glFormat", "structktxTexture1.html#a05fa4fecc2735f68d34651a62493ecd9", null ],
+    [ "glInternalformat", "structktxTexture1.html#a1318d73f800ff61d045b740331939596", null ],
+    [ "glType", "structktxTexture1.html#ac8a870c675f1e36c456c9de2e3ac9855", null ]
 ];

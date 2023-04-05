@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['selectorrdothreshold_0',['selectorRDOThreshold',['libktx/structktxBasisParams.html#a998c4122bce4a240622f5db361fcecb2',1,'ktxBasisParams']]],
-  ['separatergtorgb_5fa_1',['separateRGToRGB_A',['libktx/structktxBasisParams.html#ab981f406a51517471c96f85fd19fd3b2',1,'ktxBasisParams']]],
-  ['setpos_2',['setpos',['libktx/structktxStream.html#ae8dcb911923136a815c36eef2815fc57',1,'ktxStream']]],
-  ['size_3',['size',['libktx/structktxStream.html#a979421582d6bef249bca11a8dffb6a68',1,'ktxStream']]],
-  ['skip_4',['skip',['libktx/structktxStream.html#a365404fc4ac06c416f2617cd93a942f8',1,'ktxStream']]],
-  ['structsize_5',['structSize',['libktx/structktxAstcParams.html#a7cab0d1eb6d3ed8dc93a5191b1f3c310',1,'ktxAstcParams::structSize()'],['libktx/structktxBasisParams.html#aef37288bf5e390a9b85d5d54c1642848',1,'ktxBasisParams::structSize()']]]
+  ['selectorrdothreshold_0',['selectorRDOThreshold',['libktx/structktxBasisParams.html#aea4a4f651952b4831fdfc784f7058866',1,'ktxBasisParams']]],
+  ['separatergtorgb_5fa_1',['separateRGToRGB_A',['libktx/structktxBasisParams.html#a2b5e77802a353a04d6b8d1d848f98d47',1,'ktxBasisParams']]],
+  ['setpos_2',['setpos',['libktx/structktxStream.html#aba03500510363a0b45025645ba4327cf',1,'ktxStream']]],
+  ['size_3',['size',['libktx/structktxStream.html#ab3d4a868dd03d0fa92cdb5e5fd99ba50',1,'ktxStream']]],
+  ['skip_4',['skip',['libktx/structktxStream.html#ad224d1f8e4291a2e66e090b3c6df3698',1,'ktxStream']]],
+  ['structsize_5',['structSize',['libktx/structktxAstcParams.html#a51fe881fb2eae346ba017f7f55a1d642',1,'ktxAstcParams::structSize()'],['libktx/structktxBasisParams.html#a51fe881fb2eae346ba017f7f55a1d642',1,'ktxBasisParams::structSize()']]]
 ];

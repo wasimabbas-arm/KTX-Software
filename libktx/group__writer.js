@@ -6,7 +6,7 @@ var group__writer =
     [ "ktxTexture1::ktxTexture1_WriteKTX2ToMemory", "group__writer.html#gadbc6058afa50d4db3efd738822e6296a", null ],
     [ "ktxTexture1::ktxTexture1_WriteKTX2ToNamedFile", "group__writer.html#ga3009e876fb584268241a9ba7704e8557", null ],
     [ "ktxTexture1::ktxTexture1_WriteKTX2ToStdioStream", "group__writer.html#gac31b3532ed02d8cd4a7b517d4d2ab6ef", null ],
-    [ "ktxTexture::ktxTexture1_WriteKTX2ToStream", "group__writer.html#gad0a6406fc9359abd5f6d9956a86ce90f", null ],
+    [ "ktxTexture1::ktxTexture1_WriteKTX2ToStream", "group__writer.html#gad0a6406fc9359abd5f6d9956a86ce90f", null ],
     [ "ktxTexture::ktxTexture1_WriteToMemory", "group__writer.html#ga21904a85ada4ee322b87c309566ea4d1", null ],
     [ "ktxTexture::ktxTexture1_WriteToNamedFile", "group__writer.html#gafe0d51799d92b69cdcbe30c98322340b", null ],
     [ "ktxTexture::ktxTexture1_WriteToStdioStream", "group__writer.html#ga924da3380253c85fffca8c956e00d5c0", null ],

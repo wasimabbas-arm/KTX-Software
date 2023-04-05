@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['pallocator_0',['pAllocator',['libktx/structktxVulkanDeviceInfo.html#ab1067ca1dda7c8aa2da946e867622c1e',1,'ktxVulkanDeviceInfo']]],
-  ['pdata_1',['pData',['libktx/structktxTexture.html#a979bf5b23162095d6ca6ba720b134f21',1,'ktxTexture']]],
-  ['pdfd_2',['pDfd',['libktx/structktxTextureCreateInfo.html#a0d39d6c4f004b3d1314d9684ffc3d8b4',1,'ktxTextureCreateInfo']]],
-  ['perceptual_3',['perceptual',['libktx/structktxAstcParams.html#aa9fc440ad82358eb5853c765970101ec',1,'ktxAstcParams']]],
-  ['physicaldevice_4',['physicalDevice',['libktx/structktxVulkanDeviceInfo.html#ac59a6dca1cb19c69dc83eb2271088a0a',1,'ktxVulkanDeviceInfo']]],
-  ['preswizzle_5',['preSwizzle',['libktx/structktxBasisParams.html#ab6e76b713d00fe3784d46eb768262616',1,'ktxBasisParams']]]
+  ['pallocator_0',['pAllocator',['libktx/structktxVulkanDeviceInfo.html#a3e22f7507185cca6b31fb443453ad48e',1,'ktxVulkanDeviceInfo']]],
+  ['pdata_1',['pData',['libktx/structktxTexture.html#a11ec96d45950b444542f4e2101f1f665',1,'ktxTexture']]],
+  ['pdfd_2',['pDfd',['libktx/structktxTextureCreateInfo.html#a4bdd6bd9ddee632131ab2e371ea9d66e',1,'ktxTextureCreateInfo']]],
+  ['perceptual_3',['perceptual',['libktx/structktxAstcParams.html#aaee2c7f8b6f18e5e44a7efc72a5099c8',1,'ktxAstcParams']]],
+  ['physicaldevice_4',['physicalDevice',['libktx/structktxVulkanDeviceInfo.html#ac2810ac3274fecd32eedb3e6af340df0',1,'ktxVulkanDeviceInfo']]],
+  ['preswizzle_5',['preSwizzle',['libktx/structktxBasisParams.html#a13bd0ffd0161a44f84482ece6b270ce7',1,'ktxBasisParams']]]
 ];
