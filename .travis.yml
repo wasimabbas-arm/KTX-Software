@@ -226,8 +226,7 @@ install:
     if [ "$CHECK_REUSE" != "ONLY" -a "$WASM_BUILD" != "YES" ]; then
       ./ci_scripts/install_linux.sh
       # Get latest cmake so can use Ninja Multi-Config generator.
-      cmake --version
-      apt-get -qq upgrade cmake
+      sudo apt-get -qq upgrade cmake
       cmake --version
     fi
     ;;
