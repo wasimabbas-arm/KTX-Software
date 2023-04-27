@@ -12,15 +12,28 @@ for i in $@; do
   eval $i
 done
 
+ARCH=${ARCH:-$(uname -m)}  # Build for local machine by default.
 FEATURE_LOADTESTS=${FEATURE_LOADTESTS:-ON}
 VULKAN_SDK_VER=${VULKAN_SDK_VER:-1.3.243}
 
-sudo apt-get -qq update
+sudo apt-get update
 sudo apt-get -qq install ninja-build
 sudo apt-get -qq install doxygen
 sudo apt-get -qq install rpm
 sudo apt-get -qq install opencl-c-headers
 sudo apt-get -qq install mesa-opencl-icd
+
+# gcc, g++ and binutils for native builds should already be installed
+# on CI platforms together with cmake.
+# sudo apt-get -qq install gcc g++ binutils make
+# Install cross-platform tools.
+if [ ! "$ARCH" = "$(uname -m)" ]; then
+  # Adjust for tools package naming.
+  if [ "$ARCH" = "x86_64" ]; then ARCH=x86-64; fi
+  sudo apt-get -qq install gcc-$ARCH-linux-gnu g++-$ARCH-linux-gnu binutils-$PLATFORM-linux-gnu
+  # TODO: Figure out how to install cross versions of dependent libraries.
+else
+fi
 
 if [ "$FEATURE_LOADTESTS" = "ON" ]; then
   sudo apt-get -qq install libsdl2-dev
@@ -40,3 +53,5 @@ if [ "$FEATURE_LOADTESTS" = "ON" ]; then
 fi
 
 git lfs pull --include=tests/srcimages,tests/testimages
+
+# vim:ai:ts=4:sts=2:sw=2:expandtab
