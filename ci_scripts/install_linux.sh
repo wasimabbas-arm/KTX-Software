@@ -32,7 +32,6 @@ if [ ! "$ARCH" = "$(uname -m)" ]; then
   if [ "$ARCH" = "x86_64" ]; then ARCH=x86-64; fi
   sudo apt-get -qq install gcc-$ARCH-linux-gnu g++-$ARCH-linux-gnu binutils-$PLATFORM-linux-gnu
   # TODO: Figure out how to install cross versions of dependent libraries.
-else
 fi
 
 if [ "$FEATURE_LOADTESTS" = "ON" ]; then
