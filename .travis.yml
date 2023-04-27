@@ -229,7 +229,7 @@ install:
       # Get latest cmake so can use Ninja Multi-Config generator.
       echo "Attempting to update cmake"
       echo "cmake is $(which cmake)"
-      sudo apt-get upgrade cmake
+      sudo apt-get -qq upgrade cmake
       echo "After update cmake is $(which cmake)"
       echo "Getting cmake version"
       cmake --version
