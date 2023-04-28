@@ -23,8 +23,6 @@ addons:
     - sdl2
     #update: true
 
-group: dev  # For beta of jammy on arm64.
-
 env:
   global:
     - BUILD_DIR: build
@@ -119,6 +117,7 @@ jobs:
 #      env:
 #        # NB: This must not have the fourth component of the version number.
 #        - VULKAN_SDK_VER: "1.3.243"
+#        - CMAKE_GEN: Ninja
 #        - CONFIGURATION=Debug
 #          FEATURE_DOC=ON FEATURE_JNI=ON FEATURE_LOADTESTS=ON FEATURE_TESTS=OFF
 #          FEATURE_TOOLS=ON SUPPORT_SSE=ON SUPPORT_OPENCL=OFF PACKAGE=NO
@@ -134,13 +133,13 @@ jobs:
           FEATURE_DOC=ON FEATURE_JNI=ON FEATURE_LOADTESTS=ON FEATURE_TESTS=ON
           FEATURE_TOOLS=ON SUPPORT_SSE=ON SUPPORT_OPENCL=OFF PACKAGE=YES
 #    - os: linux
-#      group: dev  # For beta of jammy on arm64.
 #      arch: arm64
 #      dist: jammy
 #      compiler: gcc
 #      env:
 #        # NB: This must not have the fourth component of the version number.
 #        - VULKAN_SDK_VER: "1.3.243"
+#        - CMAKE_GEN: Ninja
 #        - CONFIGURATION=Debug
 #          FEATURE_DOC=ON FEATURE_JNI=ON FEATURE_LOADTESTS=ON FEATURE_TESTS=OFF
 #          FEATURE_TOOLS=ON SUPPORT_SSE=ON SUPPORT_OPENCL=OFF PACKAGE=NO
