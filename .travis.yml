@@ -23,6 +23,8 @@ addons:
     - sdl2
     #update: true
 
+group: dev  # For beta of jammy on arm64.
+
 env:
   global:
     - BUILD_DIR: build
@@ -121,7 +123,6 @@ jobs:
 #          FEATURE_DOC=ON FEATURE_JNI=ON FEATURE_LOADTESTS=ON FEATURE_TESTS=OFF
 #          FEATURE_TOOLS=ON SUPPORT_SSE=ON SUPPORT_OPENCL=OFF PACKAGE=NO
     - os: linux
-      group: dev  # For beta of jammy on arm64.
       arch: arm64
       dist: jammy
       compiler: gcc
