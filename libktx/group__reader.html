@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="ktx_logo_200.png"/></td>
   <td id="projectalign">
-   <div id="projectname">libktx - The KTX Library<span id="projectnumber">&#160;4.1.1</span>
+   <div id="projectname">libktx - The KTX Library<span id="projectnumber">&#160;4.1.0</span>
    </div>
    <div id="projectbrief">Libraries and tools to create and read KTX image texture files.</div>
   </td>
@@ -192,14 +192,20 @@ Functions</h2></td></tr>
 <tr class="memitem:gab29978f318436c009ae45b7d3c515f8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ktx_8h.html#ad2efa40e38ebae48371375db92d34eaa">KTX_error_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reader.html#gab29978f318436c009ae45b7d3c515f8e">ktxTexture2_GetImageOffset</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This, ktx_uint32_t level, ktx_uint32_t layer, ktx_uint32_t faceSlice, ktx_size_t *pOffset)</td></tr>
 <tr class="memdesc:gab29978f318436c009ae45b7d3c515f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the offset of an image within a <a class="el" href="structktxTexture.html" title="Base class representing a texture.">ktxTexture</a>'s image data.  <br /></td></tr>
 <tr class="separator:gab29978f318436c009ae45b7d3c515f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaddf6746c18d970a238e89bb9b8e13e77"><td class="memItemLeft" align="right" valign="top">khr_df_transfer_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reader.html#gaddf6746c18d970a238e89bb9b8e13e77">ktxTexture2_GetOETF_e</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This)</td></tr>
+<tr class="memdesc:gaddf6746c18d970a238e89bb9b8e13e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the opto-electrical transfer function of the images.  <br /></td></tr>
+<tr class="separator:gaddf6746c18d970a238e89bb9b8e13e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac1b0eccd69f541450ed88da2ad260dcc"><td class="memItemLeft" align="right" valign="top">ktx_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reader.html#gac1b0eccd69f541450ed88da2ad260dcc">ktxTexture2_GetOETF</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This)</td></tr>
 <tr class="memdesc:gac1b0eccd69f541450ed88da2ad260dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the opto-electrical transfer function of the images.  <br /></td></tr>
 <tr class="separator:gac1b0eccd69f541450ed88da2ad260dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7200d548b480a3abb69c206f530c0669"><td class="memItemLeft" align="right" valign="top">khr_df_model_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reader.html#ga7200d548b480a3abb69c206f530c0669">ktxTexture2_GetColorModel_e</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This)</td></tr>
+<tr class="memdesc:ga7200d548b480a3abb69c206f530c0669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the DFD color model of the images.  <br /></td></tr>
+<tr class="separator:ga7200d548b480a3abb69c206f530c0669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab773b3ad45bacb6f487b62c4b0a07fcf"><td class="memItemLeft" align="right" valign="top">ktx_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reader.html#gab773b3ad45bacb6f487b62c4b0a07fcf">ktxTexture2_GetPremultipliedAlpha</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This)</td></tr>
 <tr class="memdesc:gab773b3ad45bacb6f487b62c4b0a07fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve whether the RGB components have been premultiplied by the alpha component.  <br /></td></tr>
 <tr class="separator:gab773b3ad45bacb6f487b62c4b0a07fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gade1ffc5d31c2f9b5f1e861b59e7619ce"><td class="memItemLeft" align="right" valign="top">ktx_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reader.html#gade1ffc5d31c2f9b5f1e861b59e7619ce">ktxTexture2_NeedsTranscoding</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This)</td></tr>
-<tr class="memdesc:gade1ffc5d31c2f9b5f1e861b59e7619ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if the texture is in a transcodable format.  <br /></td></tr>
+<tr class="memdesc:gade1ffc5d31c2f9b5f1e861b59e7619ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if the images are in a transcodable format.  <br /></td></tr>
 <tr class="separator:gade1ffc5d31c2f9b5f1e861b59e7619ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaefcaf84425830ba095eb670a275dad34"><td class="memItemLeft" align="right" valign="top">ktx_size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reader.html#gaefcaf84425830ba095eb670a275dad34">ktxTexture2_GetDataSizeUncompressed</a> (<a class="el" href="structktxTexture2.html">ktxTexture2</a> *This)</td></tr>
 <tr class="memdesc:gaefcaf84425830ba095eb670a275dad34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the total size in bytes of the uncompressed data of a <a class="el" href="structktxTexture2.html" title="Class representing a KTX version 2 format texture.">ktxTexture2</a>.  <br /></td></tr>
@@ -983,6 +989,33 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga7200d548b480a3abb69c206f530c0669" name="ga7200d548b480a3abb69c206f530c0669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7200d548b480a3abb69c206f530c0669">&#9670;&#160;</a></span>ktxTexture2_GetColorModel_e()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">khr_df_model_e ktxTexture2_GetColorModel_e </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structktxTexture2.html">ktxTexture2</a> *&#160;</td>
+          <td class="paramname"><em>This</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieve the DFD color model of the images. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">This</td><td>pointer to the <a class="el" href="structktxTexture2.html" title="Class representing a KTX version 2 format texture.">ktxTexture2</a> object of interest.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <code>khr_df_transfer</code> enum value specifying the color model. </dd></dl>
+
+</div>
+</div>
 <a id="gad3aab08fa013c602fc055964e78c7566" name="gad3aab08fa013c602fc055964e78c7566"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad3aab08fa013c602fc055964e78c7566">&#9670;&#160;</a></span>ktxTexture2_GetComponentInfo()</h2>
 
@@ -1206,13 +1239,41 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retrieve the opto-electrical transfer function of the images. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000018">Deprecated:</a></b></dt><dd>Retained for backward compatibility. Use <a class="el" href="group__reader.html#gaddf6746c18d970a238e89bb9b8e13e77" title="Retrieve the opto-electrical transfer function of the images.">ktxTexture2_GetOETF_e()</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">This</td><td>pointer to the <a class="el" href="structktxTexture2.html" title="Class representing a KTX version 2 format texture.">ktxTexture2</a> object of interest.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A KHR_DF enum value specifying the OETF. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A <code>khr_df_transfer</code> enum value specifying the OETF, returned as <code>ktx_uint32_t</code>. </dd></dl>
+
+</div>
+</div>
+<a id="gaddf6746c18d970a238e89bb9b8e13e77" name="gaddf6746c18d970a238e89bb9b8e13e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaddf6746c18d970a238e89bb9b8e13e77">&#9670;&#160;</a></span>ktxTexture2_GetOETF_e()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">khr_df_transfer_e ktxTexture2_GetOETF_e </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structktxTexture2.html">ktxTexture2</a> *&#160;</td>
+          <td class="paramname"><em>This</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieve the opto-electrical transfer function of the images. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">This</td><td>pointer to the <a class="el" href="structktxTexture2.html" title="Class representing a KTX version 2 format texture.">ktxTexture2</a> object of interest.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <code>khr_df_transfer</code> enum value specifying the OETF. </dd></dl>
 
 </div>
 </div>
@@ -1429,7 +1490,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Query if the texture is in a transcodable format. </p>
+<p>Query if the images are in a transcodable format. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">This</td><td>pointer to the <a class="el" href="structktxTexture2.html" title="Class representing a KTX version 2 format texture.">ktxTexture2</a> object of interest. </td></tr>
@@ -1875,7 +1936,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Apr 15 2023 04:11:04 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Thu May 18 2023 03:02:41 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

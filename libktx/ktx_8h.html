@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="ktx_logo_200.png"/></td>
   <td id="projectalign">
-   <div id="projectname">libktx - The KTX Library<span id="projectnumber">&#160;4.1.1</span>
+   <div id="projectname">libktx - The KTX Library<span id="projectnumber">&#160;4.1.0</span>
    </div>
    <div id="projectbrief">Libraries and tools to create and read KTX image texture files.</div>
   </td>
@@ -112,6 +112,7 @@ $(document).ready(function(){initNavTree('ktx_8h.html',''); initResizable(); });
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;sys/types.h&gt;</code><br />
+<code>#include &lt;KHR/khr_df.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -847,7 +848,7 @@ Based on original work by Georg Kolling, Imagination Technology</dd></dl>
 </div><div class="memdoc">
 
 <p>Helper for calling the NeedsTranscoding virtual method of a <a class="el" href="structktxTexture.html" title="Base class representing a texture.">ktxTexture</a>. </p>
-<p>Query if the texture is in a transcodable format.  </p>
+<p>Query if the images are in a transcodable format.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">This</td><td>pointer to the <a class="el" href="structktxTexture2.html" title="Class representing a KTX version 2 format texture.">ktxTexture2</a> object of interest.   </td></tr>
@@ -1053,7 +1054,7 @@ Based on original work by Georg Kolling, Imagination Technology</dd></dl>
 <div class="line">ktxHashList_AddKVPair(&amp;texture-&gt;kvDataHead, <a class="code hl_define" href="ktx_8h.html#aa23b5bdd596b2c6a6a2891a2ac48dc2c">KTX_WRITER_KEY</a>,</div>
 <div class="line">                      (ktx_uint32_t)strlen(writer) + 1,</div>
 <div class="line">                      writer);</div>
-<div class="ttc" id="aktx_8h_html_aa23b5bdd596b2c6a6a2891a2ac48dc2c"><div class="ttname"><a href="ktx_8h.html#aa23b5bdd596b2c6a6a2891a2ac48dc2c">KTX_WRITER_KEY</a></div><div class="ttdeci">#define KTX_WRITER_KEY</div><div class="ttdoc">Key string for standard writer metadata.</div><div class="ttdef"><b>Definition:</b> ktx.h:131</div></div>
+<div class="ttc" id="aktx_8h_html_aa23b5bdd596b2c6a6a2891a2ac48dc2c"><div class="ttname"><a href="ktx_8h.html#aa23b5bdd596b2c6a6a2891a2ac48dc2c">KTX_WRITER_KEY</a></div><div class="ttdeci">#define KTX_WRITER_KEY</div><div class="ttdoc">Key string for standard writer metadata.</div><div class="ttdef"><b>Definition:</b> ktx.h:133</div></div>
 </div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">This</td><td>pointer to the target <a class="el" href="structktxTexture.html" title="Base class representing a texture.">ktxTexture</a> object. </td></tr>
@@ -1607,7 +1608,7 @@ Based on original work by Georg Kolling, Imagination Technology</dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="ktx_8h.html">ktx.h</a></li>
-    <li class="footer">Generated on Sat Apr 15 2023 04:11:04 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Thu May 18 2023 03:02:41 for libktx - The KTX Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

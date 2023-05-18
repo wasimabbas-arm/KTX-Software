@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"ktx_8h.html#a8f70163f537a794c472479bc5c1905e9a3f3681d3e1feb7fb6707a5b3aa1366b1":[6,0,0,0,47,5],
+"ktx_8h.html#a8f70163f537a794c472479bc5c1905e9a8f9546d69b84dad39f540d465c00fe2f":[6,0,0,0,47,0],
 "ktx_8h.html#a8f70163f537a794c472479bc5c1905e9aae959532601276e8e112d2cc0ae42324":[6,0,0,0,47,1],
 "ktx_8h.html#a8f70163f537a794c472479bc5c1905e9aeaf5ea197d3c6f3f2b8ee70809ac60f7":[6,0,0,0,47,3],
 "ktx_8h.html#a8f70163f537a794c472479bc5c1905e9af195805d16e6875f46da8dc875b753c5":[6,0,0,0,47,4],
@@ -147,7 +149,7 @@ var NAVTREEINDEX1 =
 "structktxTexture1.html#aaadefe13bf76c26cb921afa52fb29192":[5,0,7,20],
 "structktxTexture1.html#ac8a870c675f1e36c456c9de2e3ac9855":[5,0,7,23],
 "structktxTexture2.html":[5,0,8],
-"structktxTexture2.html#a0093ccc55cbbc2d352e6e1e8d8fbc2ab":[5,0,8,34],
+"structktxTexture2.html#a0093ccc55cbbc2d352e6e1e8d8fbc2ab":[5,0,8,36],
 "structktxTextureCreateInfo.html":[5,0,10],
 "structktxTextureCreateInfo.html#a1318d73f800ff61d045b740331939596":[5,0,10,4],
 "structktxTextureCreateInfo.html#a3a4bc2fa2e41bcec0bdb265505af0068":[5,0,10,7],
