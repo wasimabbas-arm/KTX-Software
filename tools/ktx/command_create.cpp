@@ -144,7 +144,7 @@ struct OptionsCreate {
                 (kEncode, "Encode the created KTX file. Case insensitive."
                     "\nPossible options are: basis-lz | uastc", cxxopts::value<std::string>(), "<codec>")
                 (kNormalize, "Normalize input normals to have a unit length. Only valid for\n"
-                    "linear textures with 2 or more components. For 2-component inputs\n"
+                    "linear normal textures with 2 or more components. For 2-component inputs\n"
                     "2D unit normals are calculated. Do not use these 2D unit normals\n"
                     "to generate X+Y normals for --normal-mode. For 4-component inputs\n"
                     "a 3D unit normal is calculated. 1.0 is used for the value of the\n"
@@ -794,6 +794,13 @@ Create a KTX2 file from various input files.
                 wrap | reflect | clamp.
                 Defaults to clamp.</dd>
         </dl>
+        <dt>\--normalize</dt>
+        <dd>Normalize input normals to have a unit length. Only valid for
+                linear normal textures with 2 or more components. For 2-component inputs
+                2D unit normals are calculated. Do not use these 2D unit normals
+                to generate X+Y normals for --normal-mode. For 4-component inputs
+                a 3D unit normal is calculated. 1.0 is used for the value of the
+                4th component.</dd>
         <dt>\--swizzle [rgba01]{4}</dt>
         <dd>KTX swizzle metadata.</dd>
         <dt>\--input-swizzle [rgba01]{4}</dt>
